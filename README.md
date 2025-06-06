@@ -32,7 +32,7 @@ https://www.figma.com/api/resources?sort_by=all_time&price=all&resource_type=plu
 
 ### Automated Collection with Firecrawl
 
-The data collection process is automated using **Firecrawl**, which enables:
+The data collection process is automated using **[Firecrawl](https://www.firecrawl.dev/referral?rid=E8DQXRGY)**, which enables:
 - **Batch Processing**: Efficient collection of large datasets
 - **Rate Limiting**: Respects API rate limits and terms of service
 - **Error Handling**: Robust error recovery and retry mechanisms
