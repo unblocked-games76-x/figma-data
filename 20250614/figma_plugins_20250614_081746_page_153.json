@@ -1,0 +1,2826 @@
+{
+  "session_id": "figma_plugins_20250616_081746",
+  "page_number": 153,
+  "timestamp": "2025-06-16T08:33:22.767240",
+  "plugin_count": 12,
+  "has_more": false,
+  "next_page_url": null,
+  "plugins": [
+    {
+      "id": "b8aa03ee-efc8-4822-97a4-c58045d39727",
+      "name": "图层清理大师 Layer Cleaner",
+      "description": "<h2>Introduction</h2><p>Layer Cleaner is a powerful Figma plugin designed to help you efficiently manage your layers. With easy-to-use functions, it allows you to fold layers, clear hidden layers, or do both at once. Clean and organize your workspace for smoother design workflows.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Fold Layers: Collapses all layers in the selected elements, including groups, frames, and components.</li><li data-list=\"bullet\">Clear Hidden Layers: Removes all hidden layers under the selected elements, improving file performance.</li><li data-list=\"bullet\">Fold and Clear Hidden Layers: Combines both actions—folding all layers and clearing hidden layers—into one simple click.</li></ol><p><br></p><h2>How to Use</h2><ol><li data-list=\"bullet\">Select the elements you want to work with.</li><li data-list=\"bullet\">Choose one of the options in the plugin:</li><li data-list=\"bullet\">Fold Layers to collapse all layers.</li><li data-list=\"bullet\">Clear Hidden Layers to delete all hidden layers.</li><li data-list=\"bullet\">Fold and Clear to perform both actions at once.</li><li data-list=\"bullet\">The plugin will notify you once the action is complete.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"bullet\">The plugin only affects the selected layers and elements.</li><li data-list=\"bullet\">Make sure to save your work before using the plugin, as the changes are irreversible.</li></ol><p><br></p><h2>介绍</h2><p>图层清理大师是一个强大的 Figma 插件，旨在帮助您高效地管理图层。通过简便易用的功能，它可以帮助您折叠图层、清除隐藏图层，或者同时执行这两个操作。清理并组织您的工作区，让设计流程更加顺畅。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">折叠图层：将所选元素中的所有图层折叠，包括组、框架和组件。</li><li data-list=\"bullet\">清除隐藏图层：删除所选元素下所有隐藏的图层，提高文件性能。</li><li data-list=\"bullet\">折叠并清除隐藏图层：将折叠图层和清除隐藏图层两项操作合并为一键完成。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">选择您要操作的元素。</li><li data-list=\"bullet\">在插件中选择以下其中一个选项：</li><li data-list=\"bullet\">折叠图层：折叠所有图层。</li><li data-list=\"bullet\">清除隐藏图层：删除所有隐藏的图层。</li><li data-list=\"bullet\">折叠并清除：同时执行折叠图层和清除隐藏图层两个操作。</li><li data-list=\"bullet\">操作完成后，插件会发送通知提示。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">插件仅对所选的图层和元素进行操作。</li><li data-list=\"bullet\">在使用插件前，请确保保存您的工作，因为更改不可撤销。</li></ol>",
+      "resource_type": "plugin",
+      "created_at": "2024-12-17T08:28:59.133Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 3,
+      "support_contact": "kingweicheung@qq.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design",
+        "whiteboard"
+      ],
+      "category_id": "a9198d63-f5dc-4527-8264-40fcbdea59e7",
+      "creator": {
+        "id": "771538867371472127",
+        "handle": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+      },
+      "publisher": {
+        "id": "2556409",
+        "location": "ShenZhen, China",
+        "profile_handle": "kingwei",
+        "public_at": "2021-04-25T00:57:57.375Z",
+        "follower_count": 19,
+        "following_count": 4,
+        "primary_user_id": "771538867371472127",
+        "name": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+          "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "771538867371472127",
+                "is_primary_user": true
+              }
+            ],
+            "description": "Everything gets a response, but nothing gets a resolution. 事事有回应，事事不答应。",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1450743378640073469",
+      "thumbnail_url": "https://www.figma.com/community/resource/b8aa03ee-efc8-4822-97a4-c58045d39727/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/b8aa03ee-efc8-4822-97a4-c58045d39727/icon",
+      "tagline": "Efficiently manage your layers and groups",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "3197",
+        "is_subscription": true,
+        "price": 200,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": 5,
+        "annual_discount_active_at": "2024-12-17T08:45:54.504Z",
+        "annual_price": 2280
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1450743378640073469",
+          "creator": {
+            "id": "771538867371472127",
+            "handle": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+          },
+          "current_plugin_version_id": "137622",
+          "created_at": "2024-12-17T06:56:14.971Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "a9198d63-f5dc-4527-8264-40fcbdea59e7",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "2556409",
+                "location": "ShenZhen, China",
+                "profile_handle": "kingwei",
+                "public_at": "2021-04-25T00:57:57.375Z",
+                "follower_count": 19,
+                "following_count": 4,
+                "primary_user_id": "771538867371472127",
+                "name": "KingweiCheung",
+                "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                  "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 31,
+          "like_count": 3,
+          "view_count": 147,
+          "blocked_at": null,
+          "profile_id": "2556409",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design_and_whiteboard",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-12-18T16:29:40.356Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1450743378640073469&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1450743378640073469/137622/37ddced198fff4a870d40fb7647d3ee99c07bf17-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cF2o38bON1irlqyX~5dSIXfwt3-YsbIbNGft8p~BkT7sPewiyD1X1X94fFB9iFJzIYczFzSPvqBLrNqybX0GvKMQKC74MSwiX4wXWW1evWXsK6UNRfPdl3EsMGwd3cJQUs3B1JeMQBROkYf~2scuR-xHc~3~7Ttj~gXmKIUHOYmRNyOLDaqez4lkLErfLV2My8Nnyi4TNwKjlZO~9sUf1m~PSO26qvauryqNRUyPrDD8vNNa8DTCgrBlQ3EpcCWz4s5jmQkFORGu-wNbYq4b4mAnqBzBB3OfnM~CzSQqHZqGX3gXZQhp7AbWF-TewqxzmA7sDwEtp9o9il7l4sBD3g__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "3197",
+            "is_subscription": true,
+            "price": 200,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": 5,
+            "annual_discount_active_at": "2024-12-17T08:45:54.504Z",
+            "annual_price": 2280
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "kingweicheung@qq.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "137622": {
+              "id": "137622",
+              "plugin_id": "1450743378640073469",
+              "name": "图层清理大师 Layer Cleaner",
+              "description": "<h2>Introduction</h2><p>Layer Cleaner is a powerful Figma plugin designed to help you efficiently manage your layers. With easy-to-use functions, it allows you to fold layers, clear hidden layers, or do both at once. Clean and organize your workspace for smoother design workflows.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Fold Layers: Collapses all layers in the selected elements, including groups, frames, and components.</li><li data-list=\"bullet\">Clear Hidden Layers: Removes all hidden layers under the selected elements, improving file performance.</li><li data-list=\"bullet\">Fold and Clear Hidden Layers: Combines both actions—folding all layers and clearing hidden layers—into one simple click.</li></ol><p><br></p><h2>How to Use</h2><ol><li data-list=\"bullet\">Select the elements you want to work with.</li><li data-list=\"bullet\">Choose one of the options in the plugin:</li><li data-list=\"bullet\">Fold Layers to collapse all layers.</li><li data-list=\"bullet\">Clear Hidden Layers to delete all hidden layers.</li><li data-list=\"bullet\">Fold and Clear to perform both actions at once.</li><li data-list=\"bullet\">The plugin will notify you once the action is complete.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"bullet\">The plugin only affects the selected layers and elements.</li><li data-list=\"bullet\">Make sure to save your work before using the plugin, as the changes are irreversible.</li></ol><p><br></p><h2>介绍</h2><p>图层清理大师是一个强大的 Figma 插件，旨在帮助您高效地管理图层。通过简便易用的功能，它可以帮助您折叠图层、清除隐藏图层，或者同时执行这两个操作。清理并组织您的工作区，让设计流程更加顺畅。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">折叠图层：将所选元素中的所有图层折叠，包括组、框架和组件。</li><li data-list=\"bullet\">清除隐藏图层：删除所选元素下所有隐藏的图层，提高文件性能。</li><li data-list=\"bullet\">折叠并清除隐藏图层：将折叠图层和清除隐藏图层两项操作合并为一键完成。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">选择您要操作的元素。</li><li data-list=\"bullet\">在插件中选择以下其中一个选项：</li><li data-list=\"bullet\">折叠图层：折叠所有图层。</li><li data-list=\"bullet\">清除隐藏图层：删除所有隐藏的图层。</li><li data-list=\"bullet\">折叠并清除：同时执行折叠图层和清除隐藏图层两个操作。</li><li data-list=\"bullet\">操作完成后，插件会发送通知提示。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">插件仅对所选的图层和元素进行操作。</li><li data-list=\"bullet\">在使用插件前，请确保保存您的工作，因为更改不可撤销。</li></ol>",
+              "version": "6",
+              "icon_path": "plugins/1450743378640073469/112726/007be0fb-62e2-4106-a611-7817e94b13f3-icon",
+              "cover_image_path": "plugins/1450743378640073469/137622/37ddced198fff4a870d40fb7647d3ee99c07bf17-cover",
+              "code_path": "plugins/1450743378640073469/137622/cbfcde5b-4a1e-4762-a941-502838ee2548-code",
+              "resource_staging_signature": "cbfcde5b-4a1e-4762-a941-502838ee2548",
+              "manifest": {
+                "id": "1450743378640073469",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "图层清理大师 Layer Cleaner",
+                "editorType": [
+                  "figma",
+                  "figjam"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "fixbug",
+              "created_at": "2025-06-14T09:28:19.887Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Efficiently manage your layers and groups",
+              "creator_policy": "",
+              "user_id": "771538867371472127",
+              "redirect_icon_url": "/community/icon?resource_id=1450743378640073469&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1450743378640073469&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1450743378640073469/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "137622",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "54fc1226-6181-4c8f-a1d1-19e218af03b6",
+      "name": "PDF导出工具 PDF Export Tool",
+      "description": "<h2>Introduction</h2><p>The PDF Export Tool is a powerful Figma plugin designed to help designers effortlessly export selected design elements into high-quality PDF files. Whether exporting a single element or multiple elements, the PDF Export Tool streamlines the conversion process, enhancing your productivity.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Multiple Element Export: Export multiple selected design elements at once, with each element automatically generating a separate page in the PDF.</li><li data-list=\"bullet\">High-Quality Images: Ensures that the exported PDF maintains the original resolution and clarity of your design elements.</li><li data-list=\"bullet\">Easy Operation: Complete the export process with just a few clicks, eliminating the need for complex settings.</li><li data-list=\"bullet\">Automatic Naming: The generated PDF file is automatically named “exported_elements.pdf” for easy retrieval and management.</li></ol><p><br></p><h2>Usage Instructions</h2><ol><li data-list=\"bullet\">Select Elements: In Figma, select one or more design elements you wish to export.</li><li data-list=\"bullet\">Run the Plugin: Navigate to Plugins &gt; Development &gt; PDF导出工具 PDF Export Tool in the menu bar.</li><li data-list=\"bullet\">Export PDF: In the plugin window that appears, click the “Export as PDF” button.</li><li data-list=\"bullet\">Download File: The plugin will automatically generate and download a PDF file containing your selected elements.</li></ol><p><br></p><h2>Precautions</h2><ol><li data-list=\"bullet\">Compatibility: Ensure that the selected elements support export in PNG format; otherwise, the export may fail.</li><li data-list=\"bullet\">File Size: Exporting a large number of high-resolution elements may result in a larger PDF file and may take more time to generate.</li></ol><p><br></p><h2>介绍</h2><p>PDF导出工具是一款强大的Figma插件，帮助设计师轻松将选中的设计元素导出为高质量的PDF文件。无论是单个元素还是多个元素，PDF导出工具都能快速完成转换，提升工作效率。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">多元素导出：一次性导出多个选中的设计元素，每个元素自动生成独立的PDF页面。</li><li data-list=\"bullet\">高质量图像：导出的PDF文件保持设计元素的原始分辨率和清晰度。</li><li data-list=\"bullet\">简便操作：只需几步点击，即可完成导出过程，无需复杂设置。</li><li data-list=\"bullet\">自动命名：生成的PDF文件自动命名为“exported_elements.pdf”，方便查找和管理。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">选择元素：在Figma中，选中一个或多个你想要导出的设计元素。</li><li data-list=\"bullet\">运行插件：转到菜单栏的 Plugins &gt; Development &gt; PDF导出工具 PDF Export Tool。</li><li data-list=\"bullet\">导出PDF：在弹出的插件窗口中，点击 “导出为 PDF” 按钮。</li><li data-list=\"bullet\">下载文件：插件将自动生成并下载包含选中元素的PDF文件。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">兼容性：确保所选元素支持导出为PNG格式，否则导出可能失败。</li><li data-list=\"bullet\">文件大小：导出大量高分辨率元素时，生成的PDF文件可能会较大，导出过程可能需要更多时间。</li></ol>",
+      "resource_type": "plugin",
+      "created_at": "2024-12-16T09:57:59.058Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 2,
+      "support_contact": "kingweicheung@qq.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design",
+        "whiteboard"
+      ],
+      "category_id": "a848ebc4-b1e5-477e-bcd9-b016ea972ba3",
+      "creator": {
+        "id": "771538867371472127",
+        "handle": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+      },
+      "publisher": {
+        "id": "2556409",
+        "location": "ShenZhen, China",
+        "profile_handle": "kingwei",
+        "public_at": "2021-04-25T00:57:57.375Z",
+        "follower_count": 19,
+        "following_count": 4,
+        "primary_user_id": "771538867371472127",
+        "name": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+          "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "771538867371472127",
+                "is_primary_user": true
+              }
+            ],
+            "description": "Everything gets a response, but nothing gets a resolution. 事事有回应，事事不答应。",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1450409397759633448",
+      "thumbnail_url": "https://www.figma.com/community/resource/54fc1226-6181-4c8f-a1d1-19e218af03b6/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/54fc1226-6181-4c8f-a1d1-19e218af03b6/icon",
+      "tagline": "Quickly Export Your Designs to PDF",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "3188",
+        "is_subscription": true,
+        "price": 200,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": 5,
+        "annual_discount_active_at": "2024-12-18T14:51:32.304Z",
+        "annual_price": 2280
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1450409397759633448",
+          "creator": {
+            "id": "771538867371472127",
+            "handle": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+          },
+          "current_plugin_version_id": "137599",
+          "created_at": "2024-12-16T08:49:07.724Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "a848ebc4-b1e5-477e-bcd9-b016ea972ba3",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "2556409",
+                "location": "ShenZhen, China",
+                "profile_handle": "kingwei",
+                "public_at": "2021-04-25T00:57:57.375Z",
+                "follower_count": 19,
+                "following_count": 4,
+                "primary_user_id": "771538867371472127",
+                "name": "KingweiCheung",
+                "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                  "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 64,
+          "like_count": 2,
+          "view_count": 295,
+          "blocked_at": null,
+          "profile_id": "2556409",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design_and_whiteboard",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-12-18T16:05:48.479Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1450409397759633448&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1450409397759633448/137599/99df7a03b4a4c511a623d29383dafc8b66b52ae5-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nusEwS59K-a5foVRNW4B9-mpFs5kaRmVvShbaRjwDq6ZqAEKiT5UiT8pH6ww5HUeU3POoNuBi4fyspHmwsMoJHFFX-VNj9lvPVnkPUBuIK-fRIAc6PV1KoDuNspMHAyNq3j2OmN6DSHe3RJ5Ff21LUo-CzKvy2s6wk-VcU3CONmWT3vcSRfca5Bw2Mnv5LnjeOZOmFsll7HEn54TGs3-xidyB2ZXKW~KlGp9rpaKrHyU~htF~67-iWKHrSXNuppnsANCWRtLdb~BWQnvmE~CDDkU3FKZNCb6ytTBzejgGLSFckPMkkD4xiFtcoJ-xHqsmzzZyoMK68qeYEXyc5Beog__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "3188",
+            "is_subscription": true,
+            "price": 200,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": 5,
+            "annual_discount_active_at": "2024-12-18T14:51:32.304Z",
+            "annual_price": 2280
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "kingweicheung@qq.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "137599": {
+              "id": "137599",
+              "plugin_id": "1450409397759633448",
+              "name": "PDF导出工具 PDF Export Tool",
+              "description": "<h2>Introduction</h2><p>The PDF Export Tool is a powerful Figma plugin designed to help designers effortlessly export selected design elements into high-quality PDF files. Whether exporting a single element or multiple elements, the PDF Export Tool streamlines the conversion process, enhancing your productivity.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Multiple Element Export: Export multiple selected design elements at once, with each element automatically generating a separate page in the PDF.</li><li data-list=\"bullet\">High-Quality Images: Ensures that the exported PDF maintains the original resolution and clarity of your design elements.</li><li data-list=\"bullet\">Easy Operation: Complete the export process with just a few clicks, eliminating the need for complex settings.</li><li data-list=\"bullet\">Automatic Naming: The generated PDF file is automatically named “exported_elements.pdf” for easy retrieval and management.</li></ol><p><br></p><h2>Usage Instructions</h2><ol><li data-list=\"bullet\">Select Elements: In Figma, select one or more design elements you wish to export.</li><li data-list=\"bullet\">Run the Plugin: Navigate to Plugins &gt; Development &gt; PDF导出工具 PDF Export Tool in the menu bar.</li><li data-list=\"bullet\">Export PDF: In the plugin window that appears, click the “Export as PDF” button.</li><li data-list=\"bullet\">Download File: The plugin will automatically generate and download a PDF file containing your selected elements.</li></ol><p><br></p><h2>Precautions</h2><ol><li data-list=\"bullet\">Compatibility: Ensure that the selected elements support export in PNG format; otherwise, the export may fail.</li><li data-list=\"bullet\">File Size: Exporting a large number of high-resolution elements may result in a larger PDF file and may take more time to generate.</li></ol><p><br></p><h2>介绍</h2><p>PDF导出工具是一款强大的Figma插件，帮助设计师轻松将选中的设计元素导出为高质量的PDF文件。无论是单个元素还是多个元素，PDF导出工具都能快速完成转换，提升工作效率。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">多元素导出：一次性导出多个选中的设计元素，每个元素自动生成独立的PDF页面。</li><li data-list=\"bullet\">高质量图像：导出的PDF文件保持设计元素的原始分辨率和清晰度。</li><li data-list=\"bullet\">简便操作：只需几步点击，即可完成导出过程，无需复杂设置。</li><li data-list=\"bullet\">自动命名：生成的PDF文件自动命名为“exported_elements.pdf”，方便查找和管理。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">选择元素：在Figma中，选中一个或多个你想要导出的设计元素。</li><li data-list=\"bullet\">运行插件：转到菜单栏的 Plugins &gt; Development &gt; PDF导出工具 PDF Export Tool。</li><li data-list=\"bullet\">导出PDF：在弹出的插件窗口中，点击 “导出为 PDF” 按钮。</li><li data-list=\"bullet\">下载文件：插件将自动生成并下载包含选中元素的PDF文件。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">兼容性：确保所选元素支持导出为PNG格式，否则导出可能失败。</li><li data-list=\"bullet\">文件大小：导出大量高分辨率元素时，生成的PDF文件可能会较大，导出过程可能需要更多时间。</li></ol>",
+              "version": "7",
+              "icon_path": "plugins/1450409397759633448/112571/0bd84ba2-e3b5-40d2-9005-106dda210e58-icon",
+              "cover_image_path": "plugins/1450409397759633448/137599/99df7a03b4a4c511a623d29383dafc8b66b52ae5-cover",
+              "code_path": "plugins/1450409397759633448/137599/1f327a77-ee14-4d78-92fa-af9bb3a71a40-code",
+              "resource_staging_signature": "1f327a77-ee14-4d78-92fa-af9bb3a71a40",
+              "manifest": {
+                "id": "1450409397759633448",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "PDF导出工具 PDF Export Tool",
+                "editorType": [
+                  "figma",
+                  "figjam"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://cdnjs.cloudflare.com/"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "fix bug",
+              "created_at": "2025-06-14T06:11:47.210Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Quickly Export Your Designs to PDF",
+              "creator_policy": "",
+              "user_id": "771538867371472127",
+              "redirect_icon_url": "/community/icon?resource_id=1450409397759633448&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1450409397759633448&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1450409397759633448/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "137599",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "90765576-d74b-4a57-82c6-5568e748e74d",
+      "name": "色值转换器 Color Format Converter",
+      "description": "<h2>Introduction</h2><p>\"Color Format Converter\" is a lightweight Figma plugin that simplifies viewing, converting, and copying all colors (including child elements) within your selected objects. It supports multiple color formats—Hex, RGB, HSL, HSB, UIColor—and enhances your workflow efficiency.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Extract all color information (solid fills, gradients, strokes, and text colors) from the selected layers and their children.</li><li data-list=\"bullet\">Display colors in various formats: Hex (with alpha), RGB(A), HSL(A), HSB(A), UIColor.</li><li data-list=\"bullet\">Parallel display of a stable column (Hex+Opacity) and a convertible format column. The stable column remains fixed, while the convertible format can be switched from a dropdown.</li><li data-list=\"bullet\">Click the convertible format value to copy it, with a success notification appearing in Figma.</li></ol><p><br></p><h2>Usage</h2><ol><li data-list=\"bullet\">Install and run the plugin in Figma.</li><li data-list=\"bullet\">Select any object (including groups or components). The plugin automatically extracts all related colors.</li><li data-list=\"bullet\">Use the dropdown in the plugin panel to change the displayed convertible color format.</li><li data-list=\"bullet\">Click on a convertible format value to copy it and receive a success notification.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"bullet\">Ensure a secure context (HTTPS) for direct clipboard API usage. A fallback method is employed otherwise.</li><li data-list=\"bullet\">If no color is present in the selection, the plugin will display an empty list.</li></ol><p><br></p><h2>介绍</h2><p>\"颜值转换器 Color Format Converter\" 是一款轻量级 Figma 插件，可轻松查看、转换并复制所选对象（含子元素）中的所有颜色信息。支持多种颜色格式（Hex、RGB、HSL、HSB、UIColor），提升你的设计工作效率。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">提取选中图层及其子元素的所有颜色信息（纯色、渐变、描边、文本颜色）。</li><li data-list=\"bullet\">多种颜色格式展示：Hex（含透明度）、RGB(A)、HSL(A)、HSB(A)、UIColor。</li><li data-list=\"bullet\">同时显示稳定格式列（Hex+透明度）和可变格式列，稳定列固定，而可变格式列可通过下拉框切换。</li><li data-list=\"bullet\">点击可变格式列的颜色值即可复制，并在 Figma 中显示复制成功提示。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">在 Figma 中安装并运行插件。</li><li data-list=\"bullet\">选中任意对象（包括包含子元素的组、组件），插件将自动提取所有颜色。</li><li data-list=\"bullet\">使用插件面板中的下拉菜单切换可变格式列的显示格式。</li><li data-list=\"bullet\">点击可变格式列的颜色值即可复制，并在 Figma 中获得成功通知。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">若需使用剪贴板 API，请确保在安全上下文（HTTPS）下运行，否则将使用后备复制方法。</li><li data-list=\"bullet\">如果选中的对象没有任何颜色，插件将显示空列表。</li></ol>",
+      "resource_type": "plugin",
+      "created_at": "2024-12-12T14:19:02.419Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 1,
+      "support_contact": "kingweicheung@qq.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "dev_handoff"
+      ],
+      "category_id": "8407c5a0-a869-4575-b2c9-4e2ecf09fe14",
+      "creator": {
+        "id": "771538867371472127",
+        "handle": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+      },
+      "publisher": {
+        "id": "2556409",
+        "location": "ShenZhen, China",
+        "profile_handle": "kingwei",
+        "public_at": "2021-04-25T00:57:57.375Z",
+        "follower_count": 19,
+        "following_count": 4,
+        "primary_user_id": "771538867371472127",
+        "name": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+          "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "771538867371472127",
+                "is_primary_user": true
+              }
+            ],
+            "description": "Everything gets a response, but nothing gets a resolution. 事事有回应，事事不答应。",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1448977871046964847",
+      "thumbnail_url": "https://www.figma.com/community/resource/90765576-d74b-4a57-82c6-5568e748e74d/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/90765576-d74b-4a57-82c6-5568e748e74d/icon",
+      "tagline": "Convert and explore colors in multiple formats.",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "3179",
+        "is_subscription": true,
+        "price": 200,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": 5,
+        "annual_discount_active_at": "2024-12-12T14:19:03.353Z",
+        "annual_price": 2280
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1448977871046964847",
+          "creator": {
+            "id": "771538867371472127",
+            "handle": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+          },
+          "current_plugin_version_id": "136386",
+          "created_at": "2024-12-12T10:00:45.159Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "8407c5a0-a869-4575-b2c9-4e2ecf09fe14",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "2556409",
+                "location": "ShenZhen, China",
+                "profile_handle": "kingwei",
+                "public_at": "2021-04-25T00:57:57.375Z",
+                "follower_count": 19,
+                "following_count": 4,
+                "primary_user_id": "771538867371472127",
+                "name": "KingweiCheung",
+                "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                  "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 9,
+          "like_count": 1,
+          "view_count": 119,
+          "blocked_at": null,
+          "profile_id": "2556409",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": null,
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-06-07T08:19:04.514Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1448977871046964847&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1448977871046964847/136386/f8bf609e0d11babeb980b0720ffb9055adc20b24-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=M9WTru~8RrHMH9s2dzxYbomWSO85r29TGMm6w8GcM1-Jc2O1AnT2uj8xCAvYMoIEfsxpQg6JAG0Qf0NY1kYq15bRkxzi40ipr6l6SFwfTkciBB9G1ivy8nqRmbJGO4XK30~sntStD2pOpFpuHk0iLQunOUM28VdSXZOCqjK96ELk~jQIxDkvTqqP0Glrfn01zNFrycViWkZ2Tr~TSM0MRQ7Q6VlmZt-6C-p1QPOv28anNSeT96EvApQgjIOtE7b~UHO6-i3M6y9MiBLADjNdnuC4luF2dELztEiAqGeu~6rXeYBHxK8H~G-OHw2PG-H2Hh1S1g3~e-bzJY8eP6hw6A__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "3179",
+            "is_subscription": true,
+            "price": 200,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": 5,
+            "annual_discount_active_at": "2024-12-12T14:19:03.353Z",
+            "annual_price": 2280
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "kingweicheung@qq.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "136386": {
+              "id": "136386",
+              "plugin_id": "1448977871046964847",
+              "name": "色值转换器 Color Format Converter",
+              "description": "<h2>Introduction</h2><p>\"Color Format Converter\" is a lightweight Figma plugin that simplifies viewing, converting, and copying all colors (including child elements) within your selected objects. It supports multiple color formats—Hex, RGB, HSL, HSB, UIColor—and enhances your workflow efficiency.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"bullet\">Extract all color information (solid fills, gradients, strokes, and text colors) from the selected layers and their children.</li><li data-list=\"bullet\">Display colors in various formats: Hex (with alpha), RGB(A), HSL(A), HSB(A), UIColor.</li><li data-list=\"bullet\">Parallel display of a stable column (Hex+Opacity) and a convertible format column. The stable column remains fixed, while the convertible format can be switched from a dropdown.</li><li data-list=\"bullet\">Click the convertible format value to copy it, with a success notification appearing in Figma.</li></ol><p><br></p><h2>Usage</h2><ol><li data-list=\"bullet\">Install and run the plugin in Figma.</li><li data-list=\"bullet\">Select any object (including groups or components). The plugin automatically extracts all related colors.</li><li data-list=\"bullet\">Use the dropdown in the plugin panel to change the displayed convertible color format.</li><li data-list=\"bullet\">Click on a convertible format value to copy it and receive a success notification.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"bullet\">Ensure a secure context (HTTPS) for direct clipboard API usage. A fallback method is employed otherwise.</li><li data-list=\"bullet\">If no color is present in the selection, the plugin will display an empty list.</li></ol><p><br></p><h2>介绍</h2><p>\"颜值转换器 Color Format Converter\" 是一款轻量级 Figma 插件，可轻松查看、转换并复制所选对象（含子元素）中的所有颜色信息。支持多种颜色格式（Hex、RGB、HSL、HSB、UIColor），提升你的设计工作效率。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"bullet\">提取选中图层及其子元素的所有颜色信息（纯色、渐变、描边、文本颜色）。</li><li data-list=\"bullet\">多种颜色格式展示：Hex（含透明度）、RGB(A)、HSL(A)、HSB(A)、UIColor。</li><li data-list=\"bullet\">同时显示稳定格式列（Hex+透明度）和可变格式列，稳定列固定，而可变格式列可通过下拉框切换。</li><li data-list=\"bullet\">点击可变格式列的颜色值即可复制，并在 Figma 中显示复制成功提示。</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"bullet\">在 Figma 中安装并运行插件。</li><li data-list=\"bullet\">选中任意对象（包括包含子元素的组、组件），插件将自动提取所有颜色。</li><li data-list=\"bullet\">使用插件面板中的下拉菜单切换可变格式列的显示格式。</li><li data-list=\"bullet\">点击可变格式列的颜色值即可复制，并在 Figma 中获得成功通知。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"bullet\">若需使用剪贴板 API，请确保在安全上下文（HTTPS）下运行，否则将使用后备复制方法。</li><li data-list=\"bullet\">如果选中的对象没有任何颜色，插件将显示空列表。</li></ol>",
+              "version": "3",
+              "icon_path": "plugins/1448977871046964847/112213/b42212f1-6ebf-4b62-bf31-39620f85f329-icon",
+              "cover_image_path": "plugins/1448977871046964847/136386/f8bf609e0d11babeb980b0720ffb9055adc20b24-cover",
+              "code_path": "plugins/1448977871046964847/136386/8258a48d-ab33-4ae6-95a3-c6e5d46440c4-code",
+              "resource_staging_signature": "8258a48d-ab33-4ae6-95a3-c6e5d46440c4",
+              "manifest": {
+                "id": "1448977871046964847",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "色值转换器 Color Format Converter",
+                "editorType": [
+                  "dev"
+                ],
+                "capabilities": [
+                  "inspect"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "Update the cover and add a usage demo video",
+              "created_at": "2025-06-07T08:18:46.625Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Convert and explore colors in multiple formats.",
+              "creator_policy": "",
+              "user_id": "771538867371472127",
+              "redirect_icon_url": "/community/icon?resource_id=1448977871046964847&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1448977871046964847&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1448977871046964847/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "136386",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "eff276bf-b3ab-4cec-a9ae-42c2f75e1acb",
+      "name": "Resonote - Share and Collaborate",
+      "description": "<h2>Overview</h2><p>Ever found a stakeholder wandering your file looking for a design? Or having to share the same link number of times to get some feedback. With this plugin you can create a dedicated collaborative space with a sharable link for a specific design within your file. Within this space you can easily collect feedback and log actions. Here's an <a rel=\"noreferrer noopener nofollow ugc\" href=\"https://resonote.app/chain?id=SILHsjx3lag5FUAYBvQ2\" target=\"_blank\">example</a> of the collaborative space.</p><h2><br></h2><h2>How to use</h2><ol><li data-list=\"bullet\">First locate the design frame you want create a dedicated space for, it can be a single design or multiple designs within a frame.</li><li data-list=\"bullet\">Then within the plugin add a name for the design project and the iteration you're adding with a quick description - it could be a feedback request or annotations for the design.</li><li data-list=\"bullet\">Finally choose the format you want to upload the frame to the dedicated space, it can either be an image or embedded Figma frame.</li><li data-list=\"bullet\">After you upload the frame to the dedicated space the link will be generated below, if you want to add to the same project after, use the same link and choose 'add to project'.</li></ol><p><br></p><p><strong>Example use cases</strong></p><ol><li data-list=\"bullet\">Tracking design iterations and collecting feedback from the team and stakeholder, with each new iteration including how the feedback was actioned and how the design evolved.</li><li data-list=\"bullet\">Showcasing different states of design evolution (crawl, walk, run) for stakeholders in a easily sharable link tracking related feedback.</li><li data-list=\"bullet\">Using iterations for different parts of the designs and tracking related feedback in one space to see how the overall design evolves.</li></ol><p><br></p><h2>Note</h2><ol><li data-list=\"bullet\">When uploading as an image will make the selected frame or section content public, use at own risk or switch to embed to retain existing file access settings.</li><li data-list=\"bullet\">Plugin and collaborative feedback space is currently in alpha stage, things will evolve and any feedback or suggestion are more then welcome!</li></ol>",
+      "resource_type": "plugin",
+      "created_at": "2025-04-21T19:32:00.461Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "benas.sk@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "8407c5a0-a869-4575-b2c9-4e2ecf09fe14",
+      "creator": {
+        "id": "695016632844074119",
+        "handle": "Benas Skripka",
+        "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997"
+      },
+      "publisher": {
+        "id": "1355967",
+        "location": "London",
+        "profile_handle": "benasskripka",
+        "public_at": "2023-03-07T11:24:00.870Z",
+        "follower_count": 2,
+        "following_count": 0,
+        "primary_user_id": "695016632844074119",
+        "name": "Benas Skripka",
+        "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+          "500_500": "https://s3-alpha.figma.com/profile/7dc0dabd-ebe0-4ab9-b3e4-d51c499db82b"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1355967:1750034000:0:897fa99b3249dc0b565c1bad9398ff9a446764f9",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1355967",
+            "location": "London",
+            "profile_handle": "benasskripka",
+            "public_at": "2023-03-07T11:24:00.870Z",
+            "follower_count": 2,
+            "following_count": 0,
+            "primary_user_id": "695016632844074119",
+            "name": "Benas Skripka",
+            "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+              "500_500": "https://s3-alpha.figma.com/profile/7dc0dabd-ebe0-4ab9-b3e4-d51c499db82b"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1355967:1750034000:0:897fa99b3249dc0b565c1bad9398ff9a446764f9",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "695016632844074119",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1443001325622465700",
+      "thumbnail_url": "https://www.figma.com/community/resource/eff276bf-b3ab-4cec-a9ae-42c2f75e1acb/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/eff276bf-b3ab-4cec-a9ae-42c2f75e1acb/icon",
+      "tagline": "Create and share a feedback space to collaborate with your team and stakeholders",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1443001325622465700",
+          "creator": {
+            "id": "695016632844074119",
+            "handle": "Benas Skripka",
+            "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997"
+          },
+          "current_plugin_version_id": "129518",
+          "created_at": "2024-11-25T22:12:05.692Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "8407c5a0-a869-4575-b2c9-4e2ecf09fe14",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1355967",
+                "location": "London",
+                "profile_handle": "benasskripka",
+                "public_at": "2023-03-07T11:24:00.870Z",
+                "follower_count": 2,
+                "following_count": 0,
+                "primary_user_id": "695016632844074119",
+                "name": "Benas Skripka",
+                "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+                  "500_500": "https://s3-alpha.figma.com/profile/7dc0dabd-ebe0-4ab9-b3e4-d51c499db82b"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1355967:1750034000:0:897fa99b3249dc0b565c1bad9398ff9a446764f9",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 1,
+          "like_count": 0,
+          "view_count": 28,
+          "blocked_at": null,
+          "profile_id": "1355967",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-05-01T17:21:23.224Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1443001325622465700&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1443001325622465700/129518/964d2c5d8217b7b3c84529ceb45c8459a1952cf4-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eewlNL31SJHRnsOCcOqmPOdW35oERNX~Q9gSa~tekFdDEQnSK87nMJvHie72cN1zut4p4XCkTo4C8u~TGpSYXIYyICd99-RDSio1KzXNHDcb3tbdSN1wUK7R74VY9NsYMH78fhM1Nq-EhdhAm-d14FVickzYwGpfCPbbvRwXCfs6U9SNabzRlIb8b60QBgqCYsQaZAQf-oufnDS0zswk9-9-B2Bl0Mk~SpNpt8JRq8Cc2rifeyGCmew0-R7WnoeWOUWILcgQIbiTrYnh05MPoKCBeWQ-Sk14c-2n5vHiXFUl88QCW8lJx2Ps6WIgB8o2YU7E49Rz0UAmsKIzBisi0A__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1355967",
+            "location": "London",
+            "profile_handle": "benasskripka",
+            "public_at": "2023-03-07T11:24:00.870Z",
+            "follower_count": 2,
+            "following_count": 0,
+            "primary_user_id": "695016632844074119",
+            "name": "Benas Skripka",
+            "img_url": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/beb75938-1a14-41d4-9b69-d72353c1a997",
+              "500_500": "https://s3-alpha.figma.com/profile/7dc0dabd-ebe0-4ab9-b3e4-d51c499db82b"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1355967:1750034000:0:897fa99b3249dc0b565c1bad9398ff9a446764f9",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "benas.sk@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "129518": {
+              "id": "129518",
+              "plugin_id": "1443001325622465700",
+              "name": "Resonote - Share and Collaborate",
+              "description": "<h2>Overview</h2><p>Ever found a stakeholder wandering your file looking for a design? Or having to share the same link number of times to get some feedback. With this plugin you can create a dedicated collaborative space with a sharable link for a specific design within your file. Within this space you can easily collect feedback and log actions. Here's an <a rel=\"noreferrer noopener nofollow ugc\" href=\"https://resonote.app/chain?id=SILHsjx3lag5FUAYBvQ2\" target=\"_blank\">example</a> of the collaborative space.</p><h2><br></h2><h2>How to use</h2><ol><li data-list=\"bullet\">First locate the design frame you want create a dedicated space for, it can be a single design or multiple designs within a frame.</li><li data-list=\"bullet\">Then within the plugin add a name for the design project and the iteration you're adding with a quick description - it could be a feedback request or annotations for the design.</li><li data-list=\"bullet\">Finally choose the format you want to upload the frame to the dedicated space, it can either be an image or embedded Figma frame.</li><li data-list=\"bullet\">After you upload the frame to the dedicated space the link will be generated below, if you want to add to the same project after, use the same link and choose 'add to project'.</li></ol><p><br></p><p><strong>Example use cases</strong></p><ol><li data-list=\"bullet\">Tracking design iterations and collecting feedback from the team and stakeholder, with each new iteration including how the feedback was actioned and how the design evolved.</li><li data-list=\"bullet\">Showcasing different states of design evolution (crawl, walk, run) for stakeholders in a easily sharable link tracking related feedback.</li><li data-list=\"bullet\">Using iterations for different parts of the designs and tracking related feedback in one space to see how the overall design evolves.</li></ol><p><br></p><h2>Note</h2><ol><li data-list=\"bullet\">When uploading as an image will make the selected frame or section content public, use at own risk or switch to embed to retain existing file access settings.</li><li data-list=\"bullet\">Plugin and collaborative feedback space is currently in alpha stage, things will evolve and any feedback or suggestion are more then welcome!</li></ol>",
+              "version": "1",
+              "icon_path": "plugins/1443001325622465700/129518/f1ce8188-9842-41b9-afe8-89b29e069c69-icon",
+              "cover_image_path": "plugins/1443001325622465700/129518/964d2c5d8217b7b3c84529ceb45c8459a1952cf4-cover",
+              "code_path": "plugins/1443001325622465700/129518/f1ce8188-9842-41b9-afe8-89b29e069c69-code",
+              "resource_staging_signature": "f1ce8188-9842-41b9-afe8-89b29e069c69",
+              "manifest": {
+                "id": "1443001325622465700",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "Resonote - Share and Collaborate",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://us-central1-resonote-app.cloudfunctions.net"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "",
+              "created_at": "2025-04-21T19:31:57.669Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Create and share a feedback space to collaborate with your team and stakeholders",
+              "creator_policy": "",
+              "user_id": "695016632844074119",
+              "redirect_icon_url": "/community/icon?resource_id=1443001325622465700&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1443001325622465700&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1443001325622465700/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "129518",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "09effc89-66ed-4962-af12-a0260e64ad35",
+      "name": "RenameCards",
+      "description": "<p>You can replace strings on any layer that matches your criteria</p>",
+      "resource_type": "plugin",
+      "created_at": "2024-11-26T15:50:15.459Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 1,
+      "support_contact": "ignacio.piatti@globant.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+      "creator": {
+        "id": "1359596820627189714",
+        "handle": "Ignacio Piatti",
+        "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25"
+      },
+      "publisher": {
+        "id": "1359596820780818883",
+        "location": null,
+        "profile_handle": "ignaciopiatti",
+        "public_at": "2024-11-05T11:14:48.571Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1359596820627189714",
+        "name": "Ignacio Piatti",
+        "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+          "500_500": "https://s3-alpha.figma.com/profile/badd08b8-3bac-40ab-96c0-579e4c62aec2"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1359596820780818883:1750034000:0:9d59ae7a270caad6b5d3a830610c1496749c27a6",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1359596820780818883",
+            "location": null,
+            "profile_handle": "ignaciopiatti",
+            "public_at": "2024-11-05T11:14:48.571Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1359596820627189714",
+            "name": "Ignacio Piatti",
+            "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+              "500_500": "https://s3-alpha.figma.com/profile/badd08b8-3bac-40ab-96c0-579e4c62aec2"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1359596820780818883:1750034000:0:9d59ae7a270caad6b5d3a830610c1496749c27a6",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1359596820627189714",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1435378683185949348",
+      "thumbnail_url": "https://www.figma.com/community/resource/09effc89-66ed-4962-af12-a0260e64ad35/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/09effc89-66ed-4962-af12-a0260e64ad35/icon",
+      "tagline": "This is only for Instances",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1435378683185949348",
+          "creator": {
+            "id": "1359596820627189714",
+            "handle": "Ignacio Piatti",
+            "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25"
+          },
+          "current_plugin_version_id": "107923",
+          "created_at": "2024-11-04T21:22:26.113Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1359596820780818883",
+                "location": null,
+                "profile_handle": "ignaciopiatti",
+                "public_at": "2024-11-05T11:14:48.571Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1359596820627189714",
+                "name": "Ignacio Piatti",
+                "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+                  "500_500": "https://s3-alpha.figma.com/profile/badd08b8-3bac-40ab-96c0-579e4c62aec2"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1359596820780818883:1750034000:0:9d59ae7a270caad6b5d3a830610c1496749c27a6",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 1,
+          "like_count": 1,
+          "view_count": 6,
+          "blocked_at": null,
+          "profile_id": "1359596820780818883",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-11-06T17:51:43.573Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1435378683185949348&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1435378683185949348/107923/eced4b427fdff1c1384fd011565f06910653f4b4-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aThSSntpMtCAPPposMvwfBrs8M1qEXrYa~zGvC6ukmfocbYLZsK0pN4~mONI98lg9d~uoI2xdfqYU1T0pA2lbEZGrgvYFu-x946~C~dLZaqCLrAgqXJy1ILwwqNP1nldcxKWRND82fXfkcieojmGjlw6VDhfgYxqGT4JH7jTC0Qf35GlBVYtcR2R525NdKiXlUhfT58up~UYtvl3OCB3097cRfrJT8mYBG-nKcK86IGdXGyU7QrLZe1wB0MOqRhiy9Ij80zk~WjxOayhVdzYeH4GZVTkx0eMMZGSikzWZGnu0T4c42k16EcXM63PlwjaQvRaf9hRPE3eP5VAZHqx0w__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1359596820780818883",
+            "location": null,
+            "profile_handle": "ignaciopiatti",
+            "public_at": "2024-11-05T11:14:48.571Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1359596820627189714",
+            "name": "Ignacio Piatti",
+            "img_url": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/4bfb4566-3b54-4c2d-bda0-8e470c937b25",
+              "500_500": "https://s3-alpha.figma.com/profile/badd08b8-3bac-40ab-96c0-579e4c62aec2"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1359596820780818883:1750034000:0:9d59ae7a270caad6b5d3a830610c1496749c27a6",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "ignacio.piatti@globant.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "107923": {
+              "id": "107923",
+              "plugin_id": "1435378683185949348",
+              "name": "RenameCards",
+              "description": "<p>You can replace strings on any layer that matches your criteria</p>",
+              "version": "1",
+              "icon_path": "plugins/1435378683185949348/107923/c3aca22f-e37b-4282-a23e-0fcfbb870f44-icon",
+              "cover_image_path": "plugins/1435378683185949348/107923/eced4b427fdff1c1384fd011565f06910653f4b4-cover",
+              "code_path": "plugins/1435378683185949348/107923/c3aca22f-e37b-4282-a23e-0fcfbb870f44-code",
+              "resource_staging_signature": "c3aca22f-e37b-4282-a23e-0fcfbb870f44",
+              "manifest": {
+                "id": "1435378683185949348",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "RenameCards",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "",
+              "created_at": "2024-11-05T02:49:07.924Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "This is only for Instances",
+              "creator_policy": "",
+              "user_id": "1359596820627189714",
+              "redirect_icon_url": "/community/icon?resource_id=1435378683185949348&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1435378683185949348&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1435378683185949348/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "107923",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "4845d6bd-5953-4d94-8f63-115386044f7f",
+      "name": "ffff king",
+      "description": "<p>asfsdfasdfasdf</p>",
+      "resource_type": "plugin",
+      "created_at": "2024-11-26T15:48:32.363Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "raheelmulla71rmv@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+      "creator": {
+        "id": "1404516795301402869",
+        "handle": "PRINCE RAHIL",
+        "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8"
+      },
+      "publisher": {
+        "id": "1404516795433346213",
+        "location": null,
+        "profile_handle": "724fd0fa_68f2_4",
+        "public_at": "2024-09-30T17:28:52.115Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1404516795301402869",
+        "name": "PRINCE RAHIL",
+        "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+          "500_500": "https://s3-alpha.figma.com/profile/27877a64-c08c-4430-a1a1-a437d7de6756"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1404516795433346213:1750034000:0:e68667607992077920b50320465d736b0d0371be",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1404516795433346213",
+            "location": null,
+            "profile_handle": "724fd0fa_68f2_4",
+            "public_at": "2024-09-30T17:28:52.115Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1404516795301402869",
+            "name": "PRINCE RAHIL",
+            "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+              "500_500": "https://s3-alpha.figma.com/profile/27877a64-c08c-4430-a1a1-a437d7de6756"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1404516795433346213:1750034000:0:e68667607992077920b50320465d736b0d0371be",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1404516795301402869",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1421896725456259510",
+      "thumbnail_url": "https://www.figma.com/community/resource/4845d6bd-5953-4d94-8f63-115386044f7f/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/4845d6bd-5953-4d94-8f63-115386044f7f/icon",
+      "tagline": "kafjklsadfjklsdjfklsdjfkdfkdsjffkljdfkjsdfadsklfjkldsjfkljdfkljfsadf",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1421896725456259510",
+          "creator": {
+            "id": "1404516795301402869",
+            "handle": "PRINCE RAHIL",
+            "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8"
+          },
+          "current_plugin_version_id": "103687",
+          "created_at": "2024-09-28T16:29:56.909Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1404516795433346213",
+                "location": null,
+                "profile_handle": "724fd0fa_68f2_4",
+                "public_at": "2024-09-30T17:28:52.115Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1404516795301402869",
+                "name": "PRINCE RAHIL",
+                "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+                  "500_500": "https://s3-alpha.figma.com/profile/27877a64-c08c-4430-a1a1-a437d7de6756"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1404516795433346213:1750034000:0:e68667607992077920b50320465d736b0d0371be",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 9,
+          "blocked_at": null,
+          "profile_id": "1404516795433346213",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-09-30T17:28:52.088Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1421896725456259510&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1421896725456259510/103687/7bf1d63777df5052eacc96ffb2a51879a796e0d6-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MRfjC5TVuuF2ZqTM0iH62iJororbujAZDI8zvoF2cZ-GkVbMNF8XvkyMbCK~pmAW4ZuVjBpSNxSKKwUiNsXihUtELvo5GQWU9sgqvrZZidhTFZkSzZZ001az~jY8t~w8UeTLlMgcXgueu0Qa6qmehgD6yPkOozLcq~vHVuF4iC4NdD5y2QtXO7VX~DZqdSjD2-pLfi9kRd4w4X4dDXrB0NMzWuTtJQNBwjOqQwY-tY6uk3XYUzcsGAFdelTHzTK89pmxBVuWzvBkok-vO9wVU1CQkrmaSX5YlQZ6YivilmHSVU5ak5iEYQXZu14iRu-YnvZD6cAw-CQzXnesQqEYfg__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1404516795433346213",
+            "location": null,
+            "profile_handle": "724fd0fa_68f2_4",
+            "public_at": "2024-09-30T17:28:52.115Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1404516795301402869",
+            "name": "PRINCE RAHIL",
+            "img_url": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/1fa28609-292f-4e19-a887-8afa6cde54c8",
+              "500_500": "https://s3-alpha.figma.com/profile/27877a64-c08c-4430-a1a1-a437d7de6756"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1404516795433346213:1750034000:0:e68667607992077920b50320465d736b0d0371be",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "raheelmulla71rmv@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "103687": {
+              "id": "103687",
+              "plugin_id": "1421896725456259510",
+              "name": "ffff king",
+              "description": "<p>asfsdfasdfasdf</p>",
+              "version": "3",
+              "icon_path": "plugins/1421896725456259510/103685/b61019ef-9ab9-46d9-93bf-53a697911c03-icon",
+              "cover_image_path": "plugins/1421896725456259510/103687/7bf1d63777df5052eacc96ffb2a51879a796e0d6-cover",
+              "code_path": "plugins/1421896725456259510/103687/8a9a6906-1aef-498d-830a-9939430943de-code",
+              "resource_staging_signature": "8a9a6906-1aef-498d-830a-9939430943de",
+              "manifest": {
+                "id": "1421896725456259510",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "ffff",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "",
+              "created_at": "2024-09-28T17:56:44.473Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "kafjklsadfjklsdjfklsdjfkdfkdsjffkljdfkjsdfadsklfjkldsjfkljdfkljfsadf",
+              "creator_policy": "",
+              "user_id": "1404516795301402869",
+              "redirect_icon_url": "/community/icon?resource_id=1421896725456259510&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1421896725456259510&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1421896725456259510/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "103687",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "eb5ea11f-c7b0-424f-84ab-9c568095d231",
+      "name": "MyPlugingIDK",
+      "description": "<p>You will be faced with a simple prompt that asks you for <strong>the amount of squares you want</strong> to draw, then with a simple press of a button you will get <em>beautiful orange squares. You're welcome hehe</em></p>",
+      "resource_type": "plugin",
+      "created_at": "2024-11-26T15:48:24.687Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 1,
+      "support_contact": "sa.arifi@vusion.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+      "creator": {
+        "id": "1419982818284895037",
+        "handle": "ARIFI Sid ali",
+        "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+      },
+      "publisher": {
+        "id": "1419982818430933096",
+        "location": null,
+        "profile_handle": "ASid",
+        "public_at": "2024-09-26T14:18:12.678Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1419982818284895037",
+        "name": "ARIFI Sid ali",
+        "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png",
+        "img_urls": {
+          "120_120": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1419982818430933096:1750034000:0:064db90c983f8925b2266392f349d2a1e49b3c6a",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1419982818430933096",
+            "location": null,
+            "profile_handle": "ASid",
+            "public_at": "2024-09-26T14:18:12.678Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1419982818284895037",
+            "name": "ARIFI Sid ali",
+            "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png",
+            "img_urls": {
+              "120_120": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1419982818430933096:1750034000:0:064db90c983f8925b2266392f349d2a1e49b3c6a",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1419982818284895037",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1420748207333659886",
+      "thumbnail_url": "https://www.figma.com/community/resource/eb5ea11f-c7b0-424f-84ab-9c568095d231/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/eb5ea11f-c7b0-424f-84ab-9c568095d231/icon",
+      "tagline": "This plugin draws squares for now so you gotta wait to see more",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1420748207333659886",
+          "creator": {
+            "id": "1419982818284895037",
+            "handle": "ARIFI Sid ali",
+            "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+          },
+          "current_plugin_version_id": "103443",
+          "created_at": "2024-09-25T12:26:08.850Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "b9dc27fc-7de7-4c54-a06b-937a24b60d2e",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1419982818430933096",
+                "location": null,
+                "profile_handle": "ASid",
+                "public_at": "2024-09-26T14:18:12.678Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1419982818284895037",
+                "name": "ARIFI Sid ali",
+                "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png",
+                "img_urls": {
+                  "120_120": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1419982818430933096:1750034000:0:064db90c983f8925b2266392f349d2a1e49b3c6a",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 1,
+          "like_count": 1,
+          "view_count": 5,
+          "blocked_at": null,
+          "profile_id": "1419982818430933096",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-09-26T15:30:33.450Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1420748207333659886&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1420748207333659886/103443/e2563da485b71c297eb6d13d013f3466c706bd0b-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BAB~XhVmA98z0~kIznZZJuZBj-QHm5IYsavSjMpqYLZIh55zpK-w4woBXvz76Gdn~8zPIpErrgN5kZav4Xyq9lE0PYFGrXemW37coW~DRXj6sWwY70L2CoSSRYFoqHuYIxT7GLi1n7jbG~o4SOQSRde7XHImWHSXC~4DLjzhKtbB1SJqfolOtGVFxa6cjHU~VMaEFCLGSqb4mdvdGZ0GPpZSo0SgxJY~kq-QNG8tE5afG1UAYDsRopWpJqf0uWLp7GebTK1re7b6ZXHVCps1LmRlrZBeamO2eQZyyUv8CnXkSgfIyxOlzoK8jztZ~JFQWZ-IXwYTDpyG63QPw5diOQ__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1419982818430933096",
+            "location": null,
+            "profile_handle": "ASid",
+            "public_at": "2024-09-26T14:18:12.678Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1419982818284895037",
+            "name": "ARIFI Sid ali",
+            "img_url": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png",
+            "img_urls": {
+              "120_120": "https://www.gravatar.com/avatar/abd73f316e040173c69a18380c409b72?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_a_v2.png"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1419982818430933096:1750034000:0:064db90c983f8925b2266392f349d2a1e49b3c6a",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "sa.arifi@vusion.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "103443": {
+              "id": "103443",
+              "plugin_id": "1420748207333659886",
+              "name": "MyPlugingIDK",
+              "description": "<p>You will be faced with a simple prompt that asks you for <strong>the amount of squares you want</strong> to draw, then with a simple press of a button you will get <em>beautiful orange squares. You're welcome hehe</em></p>",
+              "version": "1",
+              "icon_path": "plugins/1420748207333659886/103443/10bc1f6d-ef6b-4029-9268-5f3b6601c601-icon",
+              "cover_image_path": "plugins/1420748207333659886/103443/e2563da485b71c297eb6d13d013f3466c706bd0b-cover",
+              "code_path": "plugins/1420748207333659886/103443/10bc1f6d-ef6b-4029-9268-5f3b6601c601-code",
+              "resource_staging_signature": "10bc1f6d-ef6b-4029-9268-5f3b6601c601",
+              "manifest": {
+                "id": "1420748207333659886",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "MyPlugingIDK",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "",
+              "created_at": "2024-09-26T11:59:59.460Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "This plugin draws squares for now so you gotta wait to see more",
+              "creator_policy": "",
+              "user_id": "1419982818284895037",
+              "redirect_icon_url": "/community/icon?resource_id=1420748207333659886&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1420748207333659886&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1420748207333659886/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "103443",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "65bd3593-85b0-4e84-a379-3782e30c5dc0",
+      "name": "BartTextToDesignNow",
+      "description": "<p>I’m excited to share a new Figma plugin I’ve been working on. It’s still in the early stages, but the idea is simple and powerful: you can describe what you want to see, and the plugin will draw it for you. I’m really thankful for any support or feedback you can offer as I continue to develop it.</p><p><br></p><p>At the moment, the plugin is focused on basic shapes. For example, you could type, \"Draw a rectangle, 450 width, 600 height, 45 stroke size, red stroke color, yellow fill color,\" and the plugin will generate that exact shape on your canvas. The key is to keep your instructions straightforward and precise.</p><p><br></p><p>To help you along the way, the plugin provides helpful hints at the bottom of the screen as you type your commands. This should make it easier to craft the right instruction and get the results you’re looking for.</p><p><br></p><p>If you make a mistake or want to adjust something, you can use the \"Previous\" command to go back to the last command you entered. This allows you to easily refine your design without starting from scratch.</p><p><br></p><p>This plugin is just getting started, so your feedback and support are crucial as I continue to improve and add more features. Thank you for trying it out!</p>",
+      "resource_type": "plugin",
+      "created_at": "2024-11-26T15:46:47.610Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "gagarindes@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "b83419e1-1f7f-4364-a040-280b26348f10",
+      "creator": {
+        "id": "704990634804933432",
+        "handle": "Bartosz",
+        "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+      },
+      "publisher": {
+        "id": "1480728",
+        "location": "Poland",
+        "profile_handle": "bartoszuithemes",
+        "public_at": "2022-12-29T12:58:04.147Z",
+        "follower_count": 9,
+        "following_count": 21,
+        "primary_user_id": "704990634804933432",
+        "name": "Bartosz",
+        "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png",
+        "img_urls": {
+          "120_120": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1480728:1750034000:0:56364b41e8d893b3fca322e292396f34cef1f12d",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1480728",
+            "location": "Poland",
+            "profile_handle": "bartoszuithemes",
+            "public_at": "2022-12-29T12:58:04.147Z",
+            "follower_count": 9,
+            "following_count": 21,
+            "primary_user_id": "704990634804933432",
+            "name": "Bartosz",
+            "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png",
+            "img_urls": {
+              "120_120": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1480728:1750034000:0:56364b41e8d893b3fca322e292396f34cef1f12d",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "704990634804933432",
+                "is_primary_user": true
+              }
+            ],
+            "description": "I love to design UI for mobile and desktop . \n\nCheck out my website : \nhttps://gagarindes.myportfolio.com/\n\ngagarindes@gmail.com\n\nI am available for hire .",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1405952503129758628",
+      "thumbnail_url": "https://www.figma.com/community/resource/65bd3593-85b0-4e84-a379-3782e30c5dc0/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/65bd3593-85b0-4e84-a379-3782e30c5dc0/icon",
+      "tagline": "Write It, See It – Plugindesigns Transforms Your Words into Stunning Figma Designs!",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "2532",
+        "is_subscription": false,
+        "price": 200,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": null,
+        "annual_discount_active_at": null,
+        "annual_price": null
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1405952503129758628",
+          "creator": {
+            "id": "704990634804933432",
+            "handle": "Bartosz",
+            "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+          },
+          "current_plugin_version_id": "98507",
+          "created_at": "2024-08-15T16:33:18.079Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "b83419e1-1f7f-4364-a040-280b26348f10",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1480728",
+                "location": "Poland",
+                "profile_handle": "bartoszuithemes",
+                "public_at": "2022-12-29T12:58:04.147Z",
+                "follower_count": 9,
+                "following_count": 21,
+                "primary_user_id": "704990634804933432",
+                "name": "Bartosz",
+                "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png",
+                "img_urls": {
+                  "120_120": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1480728:1750034000:0:56364b41e8d893b3fca322e292396f34cef1f12d",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 3,
+          "like_count": 0,
+          "view_count": 337,
+          "blocked_at": null,
+          "profile_id": "1480728",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2024-08-21T15:36:34.308Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1405952503129758628&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1405952503129758628/98507/f7e87a6cc30acec9450952b7a6be8a48814b5cb2-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dPqxJiFgW3mRIhHKZ~KSyF9UPZaCD5eqCMjV7DLnskKP12-jRW1jPV24HcpTsIopoSQP8KNUGVL942nLQd-eVaAj7L4KlDX0y-ssUSk1moTkYKIr2opp92uZ1QtCLVXewWuLp8zfdas5-7~6KDLayFkWfDFglz3IYsckpKnCwqnx8Q81PYNmaFlBJinZLdfT~jtn-CDU0uwQ~F97KXUKS8F83YPoeBU4QDDTJySf~rt1Musltl1ARLi~vLFPcL1Z3d7qHafqOQ~4eg-Du0putpiJ1NZbDlHqkbI-qGTJgdoxA3TpFpPrX~sAw0sUes0ADoUiMYVnUy1uPF1IIWd~Uw__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1480728",
+            "location": "Poland",
+            "profile_handle": "bartoszuithemes",
+            "public_at": "2022-12-29T12:58:04.147Z",
+            "follower_count": 9,
+            "following_count": 21,
+            "primary_user_id": "704990634804933432",
+            "name": "Bartosz",
+            "img_url": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png",
+            "img_urls": {
+              "120_120": "https://www.gravatar.com/avatar/32de48c87a6e8558f05aea83ed396b9b?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_b_v2.png"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1480728:1750034000:0:56364b41e8d893b3fca322e292396f34cef1f12d",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "2532",
+            "is_subscription": false,
+            "price": 200,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": null,
+            "annual_discount_active_at": null,
+            "annual_price": null
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "gagarindes@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "98507": {
+              "id": "98507",
+              "plugin_id": "1405952503129758628",
+              "name": "BartTextToDesignNow",
+              "description": "<p>I’m excited to share a new Figma plugin I’ve been working on. It’s still in the early stages, but the idea is simple and powerful: you can describe what you want to see, and the plugin will draw it for you. I’m really thankful for any support or feedback you can offer as I continue to develop it.</p><p><br></p><p>At the moment, the plugin is focused on basic shapes. For example, you could type, \"Draw a rectangle, 450 width, 600 height, 45 stroke size, red stroke color, yellow fill color,\" and the plugin will generate that exact shape on your canvas. The key is to keep your instructions straightforward and precise.</p><p><br></p><p>To help you along the way, the plugin provides helpful hints at the bottom of the screen as you type your commands. This should make it easier to craft the right instruction and get the results you’re looking for.</p><p><br></p><p>If you make a mistake or want to adjust something, you can use the \"Previous\" command to go back to the last command you entered. This allows you to easily refine your design without starting from scratch.</p><p><br></p><p>This plugin is just getting started, so your feedback and support are crucial as I continue to improve and add more features. Thank you for trying it out!</p>",
+              "version": "1",
+              "icon_path": "plugins/1405952503129758628/98507/fe616732-23cf-48f6-815e-eeaf77eaa6ef-icon",
+              "cover_image_path": "plugins/1405952503129758628/98507/f7e87a6cc30acec9450952b7a6be8a48814b5cb2-cover",
+              "code_path": "plugins/1405952503129758628/98507/fe616732-23cf-48f6-815e-eeaf77eaa6ef-code",
+              "resource_staging_signature": "fe616732-23cf-48f6-815e-eeaf77eaa6ef",
+              "manifest": {
+                "id": "1405952503129758628",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "menu": [
+                  {
+                    "name": "Create Rectangle",
+                    "command": "createRectangle"
+                  }
+                ],
+                "name": "BartTextToDesignNow",
+                "editorType": [
+                  "figma"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://figma.com"
+                  ]
+                },
+                "documentAccess": "dynamic-page"
+              },
+              "release_notes": "",
+              "created_at": "2024-08-17T04:22:13.689Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Write It, See It – Plugindesigns Transforms Your Words into Stunning Figma Designs!",
+              "creator_policy": "",
+              "user_id": "704990634804933432",
+              "redirect_icon_url": "/community/icon?resource_id=1405952503129758628&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1405952503129758628&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1405952503129758628/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "98507",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "204d3772-1cbd-4434-b38b-1a50520bd37d",
+      "name": "Data Grid Master",
+      "description": "<p>Apply full spreadsheets to any data grid of your choice in Figma within seconds.</p><p>Data Grid Master supports CSV uploads or copy-paste from Excel, Google Sheets, or any spreadsheet tool.</p><p>Just pick a single cell in your grid, let the plugin find all other cells that match it and select the property to modify if it is a component. Text nodes are set directly.</p><p>Choose whether to upload a CSV file or paste your spreadsheet data, hit apply — done.</p><p><br></p><p>Tested with AG Grid, MUI-X Data Grid, and many others — works with any professional data grid setup.</p><p>The only requirement: cells must share the same name in Figma.</p><p><br></p><p>Full tutorial is available here:</p><p><a rel=\"noreferrer noopener nofollow ugc\" href=\"https://www.youtube.com/watch?v=L9baIywE7JE\" target=\"_blank\">https://www.youtube.com/watch?v=L9baIywE7JE</a></p>",
+      "resource_type": "plugin",
+      "created_at": "2025-06-12T21:58:05.731Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "evgenii.s@posteo.de",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 0,
+      "editor_types": [
+        "design",
+        "whiteboard"
+      ],
+      "category_id": "a848ebc4-b1e5-477e-bcd9-b016ea972ba3",
+      "creator": {
+        "id": "1077106085812522028",
+        "handle": "Evgenii Shmoish",
+        "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67"
+      },
+      "publisher": {
+        "id": "1077106085987577943",
+        "location": "",
+        "profile_handle": "evgeniishmoish",
+        "public_at": "2025-06-09T22:59:42.291Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1077106085812522028",
+        "name": "Evgenii Shmoish",
+        "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+          "500_500": "https://s3-alpha.figma.com/profile/6908fc63-befd-4ff1-8faa-ee982bc402ec"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1077106085987577943:1750034000:0:12184cf8c9f085e191f1fd18946e8b0083882d6b",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1077106085987577943",
+            "location": "",
+            "profile_handle": "evgeniishmoish",
+            "public_at": "2025-06-09T22:59:42.291Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1077106085812522028",
+            "name": "Evgenii Shmoish",
+            "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+              "500_500": "https://s3-alpha.figma.com/profile/6908fc63-befd-4ff1-8faa-ee982bc402ec"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1077106085987577943:1750034000:0:12184cf8c9f085e191f1fd18946e8b0083882d6b",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1077106085812522028",
+                "is_primary_user": true
+              }
+            ],
+            "description": "UX designer at day, developer at night",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1514043352863701057",
+      "thumbnail_url": "https://www.figma.com/community/resource/204d3772-1cbd-4434-b38b-1a50520bd37d/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/204d3772-1cbd-4434-b38b-1a50520bd37d/icon",
+      "tagline": "Apply spreadsheets to data grids in 3 easy steps. Supports component properties and text nodes.",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "3898",
+        "is_subscription": true,
+        "price": 500,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": 20,
+        "annual_discount_active_at": "2025-06-12T21:58:06.416Z",
+        "annual_price": 4800
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1514043352863701057",
+          "creator": {
+            "id": "1077106085812522028",
+            "handle": "Evgenii Shmoish",
+            "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67"
+          },
+          "current_plugin_version_id": "137640",
+          "created_at": "2025-06-09T23:07:44.882Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "a848ebc4-b1e5-477e-bcd9-b016ea972ba3",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1077106085987577943",
+                "location": "",
+                "profile_handle": "evgeniishmoish",
+                "public_at": "2025-06-09T22:59:42.291Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1077106085812522028",
+                "name": "Evgenii Shmoish",
+                "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+                  "500_500": "https://s3-alpha.figma.com/profile/6908fc63-befd-4ff1-8faa-ee982bc402ec"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1077106085987577943:1750034000:0:12184cf8c9f085e191f1fd18946e8b0083882d6b",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 10,
+          "blocked_at": null,
+          "profile_id": "1077106085987577943",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design_and_whiteboard",
+          "unique_run_count": 0,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-06-13T17:38:39.188Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1514043352863701057&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1514043352863701057/137640/0d8faf235bf9a7170f6c11588fddb1f707693e53-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cQ7hIJcupZKSRivAPPtG2pAGMlbw5ZKHPQEt~wP0fn79hRWpf7ZX34Xqey4crTYEjq3hJnHDwJz0HArOTfCCD8mDUbH6EMMllXdXIE6xm0rThssf-uKedMq3CATsX5Z5l9qkwmddhNeJ9-NLMjPHjAo6eorabBA1cLisn92m5eBVzkD83BOan58XTRq0NyGge4V-3JrSoEzwJzBF1Hecde4ZTv3SQFsFbpPg~XBJRfVvQ~EZq4mqlElfzx4Zsflqb0h0XYonIdqDGBcYN7xYGobze69TvspKEm4hTsog1-3MDMlnznwRF6IInsoUo-mDTmDvObIP~GhNMpa8GLa2pQ__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1077106085987577943",
+            "location": "",
+            "profile_handle": "evgeniishmoish",
+            "public_at": "2025-06-09T22:59:42.291Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1077106085812522028",
+            "name": "Evgenii Shmoish",
+            "img_url": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/57e65a8c-ec6d-4a03-92f1-d7b2d90ebb67",
+              "500_500": "https://s3-alpha.figma.com/profile/6908fc63-befd-4ff1-8faa-ee982bc402ec"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1077106085987577943:1750034000:0:12184cf8c9f085e191f1fd18946e8b0083882d6b",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "3898",
+            "is_subscription": true,
+            "price": 500,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": 20,
+            "annual_discount_active_at": "2025-06-12T21:58:06.416Z",
+            "annual_price": 4800
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "evgenii.s@posteo.de",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "137640": {
+              "id": "137640",
+              "plugin_id": "1514043352863701057",
+              "name": "Data Grid Master",
+              "description": "<p>Apply full spreadsheets to any data grid of your choice in Figma within seconds.</p><p>Data Grid Master supports CSV uploads or copy-paste from Excel, Google Sheets, or any spreadsheet tool.</p><p>Just pick a single cell in your grid, let the plugin find all other cells that match it and select the property to modify if it is a component. Text nodes are set directly.</p><p>Choose whether to upload a CSV file or paste your spreadsheet data, hit apply — done.</p><p><br></p><p>Tested with AG Grid, MUI-X Data Grid, and many others — works with any professional data grid setup.</p><p>The only requirement: cells must share the same name in Figma.</p><p><br></p><p>Full tutorial is available here:</p><p><a rel=\"noreferrer noopener nofollow ugc\" href=\"https://www.youtube.com/watch?v=L9baIywE7JE\" target=\"_blank\">https://www.youtube.com/watch?v=L9baIywE7JE</a></p>",
+              "version": "2",
+              "icon_path": "plugins/1514043352863701057/137640/bd888868-8be7-47d4-b0de-90aade1d3065-icon",
+              "cover_image_path": "plugins/1514043352863701057/137640/0d8faf235bf9a7170f6c11588fddb1f707693e53-cover",
+              "code_path": "plugins/1514043352863701057/137640/bd888868-8be7-47d4-b0de-90aade1d3065-code",
+              "resource_staging_signature": "bd888868-8be7-47d4-b0de-90aade1d3065",
+              "manifest": {
+                "id": "1514043352863701057",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "Data Grid Master",
+                "editorType": [
+                  "figma",
+                  "figjam"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page"
+              },
+              "release_notes": "Setting text nodes now works as fast as setting component properties",
+              "created_at": "2025-06-14T14:08:07.438Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Apply spreadsheets to data grids in 3 easy steps. Supports component properties and text nodes.",
+              "creator_policy": "",
+              "user_id": "1077106085812522028",
+              "redirect_icon_url": "/community/icon?resource_id=1514043352863701057&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1514043352863701057&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1514043352863701057/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "137640",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "e47d2614-2183-4941-a8e1-da78c0132d7f",
+      "name": "SheetSync For DeSo",
+      "description": "<p><strong>SheetSync For DeSo: Google Sheets to Figma Design Variations</strong></p><p><br></p><p>SheetSync is a powerful Figma plugin that creates design variations directly from your Google Sheets data, saving you hours of repetitive work. Perfect for generating product catalogs, social media posts, campaign assets, and more.</p><p><br></p><p>With SheetSync, simply select a template frame, connect your Google Sheet, and watch as the plugin automatically generates variations with customized text and images. Text fields with \"#\" prefixes automatically populate from your sheet's columns, while image placeholders update with URLs from your data.</p><p><br></p><p>Key Features:</p><p>• Generate dozens of design variations in seconds</p><p>• Dynamic text population from spreadsheet data</p><p>• Automatic image placement from URL sources</p><p>• Simple template setup with intuitive naming conventions</p><p>• Manual image upload option for greater flexibility</p><p><br></p><p>Streamline your design workflow and ensure consistency across all your variations with SheetSync For DeSo.</p>",
+      "resource_type": "plugin",
+      "created_at": "2025-05-07T05:22:11.820Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "bimal.works@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 0,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "78909ce9-256c-49a6-88c8-39911c07f508",
+      "creator": {
+        "id": "1094499285001419039",
+        "handle": "Bimal Kirti",
+        "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343"
+      },
+      "publisher": {
+        "id": "1094499285195460638",
+        "location": null,
+        "profile_handle": "75882b76_ad72_4",
+        "public_at": "2025-05-07T18:28:41.645Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1094499285001419039",
+        "name": "Bimal Kirti",
+        "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+          "500_500": "https://s3-alpha.figma.com/profile/030ce180-03ad-4396-adff-c658f66306b4"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1094499285195460638:1750034000:0:23221cd97f7cdb698d580c569128cdbc10f0ecad",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1094499285195460638",
+            "location": null,
+            "profile_handle": "75882b76_ad72_4",
+            "public_at": "2025-05-07T18:28:41.645Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1094499285001419039",
+            "name": "Bimal Kirti",
+            "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+              "500_500": "https://s3-alpha.figma.com/profile/030ce180-03ad-4396-adff-c658f66306b4"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1094499285195460638:1750034000:0:23221cd97f7cdb698d580c569128cdbc10f0ecad",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1094499285001419039",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1501815488419142087",
+      "thumbnail_url": "https://www.figma.com/community/resource/e47d2614-2183-4941-a8e1-da78c0132d7f/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/e47d2614-2183-4941-a8e1-da78c0132d7f/icon",
+      "tagline": "Design at Scale, Sheet to Shape",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1501815488419142087",
+          "creator": {
+            "id": "1094499285001419039",
+            "handle": "Bimal Kirti",
+            "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343"
+          },
+          "current_plugin_version_id": "131544",
+          "created_at": "2025-05-07T05:18:34.811Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "78909ce9-256c-49a6-88c8-39911c07f508",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1094499285195460638",
+                "location": null,
+                "profile_handle": "75882b76_ad72_4",
+                "public_at": "2025-05-07T18:28:41.645Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1094499285001419039",
+                "name": "Bimal Kirti",
+                "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+                  "500_500": "https://s3-alpha.figma.com/profile/030ce180-03ad-4396-adff-c658f66306b4"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1094499285195460638:1750034000:0:23221cd97f7cdb698d580c569128cdbc10f0ecad",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 7,
+          "blocked_at": null,
+          "profile_id": "1094499285195460638",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 0,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-05-07T18:28:41.573Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1501815488419142087&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1501815488419142087/131544/59286a5553d3f6a324fb863c2bc047636bd60c0e-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZtJTMTWQo7t8j8EH6JFadVZmEWX-EzrUArxZi85pJ-b3cmXTs~NgmsI4L0J7~pvRhrVnNG4mmcIAZXxixlMhbwEO3hb-wEbVjf6dpXyX4aBKIcfjpF5kcIsrM9VOSk5~URZAyym4Vr2LqDYPa-BfvPFLvZD9klzQE9cuvo3VuGxhecELj6EwXwsCafdt0W~IjtFATvvIrRQPYgrblexwjQXihJMB28SnoqPuXBSLem~sXHOJrcsZE9n055Unb257G2ASBXI-2PcvSxvWRarvSvt~nTrsKDAVhMUCcnl5dj~gD4s8odRhlqougSkf5UtqYfGGbdtAbgoOyG9o7d8UDQ__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1094499285195460638",
+            "location": null,
+            "profile_handle": "75882b76_ad72_4",
+            "public_at": "2025-05-07T18:28:41.645Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1094499285001419039",
+            "name": "Bimal Kirti",
+            "img_url": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/c4a82197-b458-4e9a-9334-8963b0b47343",
+              "500_500": "https://s3-alpha.figma.com/profile/030ce180-03ad-4396-adff-c658f66306b4"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1094499285195460638:1750034000:0:23221cd97f7cdb698d580c569128cdbc10f0ecad",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "bimal.works@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "131544": {
+              "id": "131544",
+              "plugin_id": "1501815488419142087",
+              "name": "SheetSync For DeSo",
+              "description": "<p><strong>SheetSync For DeSo: Google Sheets to Figma Design Variations</strong></p><p><br></p><p>SheetSync is a powerful Figma plugin that creates design variations directly from your Google Sheets data, saving you hours of repetitive work. Perfect for generating product catalogs, social media posts, campaign assets, and more.</p><p><br></p><p>With SheetSync, simply select a template frame, connect your Google Sheet, and watch as the plugin automatically generates variations with customized text and images. Text fields with \"#\" prefixes automatically populate from your sheet's columns, while image placeholders update with URLs from your data.</p><p><br></p><p>Key Features:</p><p>• Generate dozens of design variations in seconds</p><p>• Dynamic text population from spreadsheet data</p><p>• Automatic image placement from URL sources</p><p>• Simple template setup with intuitive naming conventions</p><p>• Manual image upload option for greater flexibility</p><p><br></p><p>Streamline your design workflow and ensure consistency across all your variations with SheetSync For DeSo.</p>",
+              "version": "1",
+              "icon_path": "plugins/1501815488419142087/131544/9d30410a-a409-4dbc-8130-57d29061fc4f-icon",
+              "cover_image_path": "plugins/1501815488419142087/131544/59286a5553d3f6a324fb863c2bc047636bd60c0e-cover",
+              "code_path": "plugins/1501815488419142087/131544/9d30410a-a409-4dbc-8130-57d29061fc4f-code",
+              "resource_staging_signature": "9d30410a-a409-4dbc-8130-57d29061fc4f",
+              "manifest": {
+                "id": "1501815488419142087",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "SheetSync For DeSo",
+                "editorType": [
+                  "figma"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://sheets.googleapis.com",
+                    "https://script.google.com",
+                    "https://sheet-sync-image-helper.netlify.app",
+                    "https://dineout-media-assets.swiggy.com",
+                    "https://drive.google.com",
+                    "https://lh3.googleusercontent.com",
+                    "https://storage.googleapis.com",
+                    "https://images.unsplash.com",
+                    "https://i.imgur.com",
+                    "https://cdn.pixabay.com",
+                    "https://res.cloudinary.com"
+                  ]
+                },
+                "documentAccess": "dynamic-page"
+              },
+              "release_notes": "",
+              "created_at": "2025-05-07T05:22:06.837Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Design at Scale, Sheet to Shape",
+              "creator_policy": "",
+              "user_id": "1094499285001419039",
+              "redirect_icon_url": "/community/icon?resource_id=1501815488419142087&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1501815488419142087&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1501815488419142087/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "131544",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "349ddc91-bee3-4282-a775-73fb0eeae215",
+      "name": "文本样式映射助手 TextStyle Mapper",
+      "description": "<h2>介绍</h2><p>本插件可帮助你在 Figma 中快捷地将选中元素的本地文本样式进行批量替换，无需手动一个个设置，提升效率，适用于多语言或版本样式替换场景。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"ordered\">自动获取当前文件的本地文本样式</li><li data-list=\"ordered\">提供源样式与目标样式下拉选择</li><li data-list=\"ordered\">批量替换所选文本节点的样式</li><li data-list=\"ordered\">无本地样式时自动提示空状态</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"ordered\">打开插件后，插件会自动加载本地文本样式；</li><li data-list=\"ordered\">从两个下拉框中分别选择「源样式」与「目标样式」；</li><li data-list=\"ordered\">选中需要替换样式的文本节点，点击「开始替换」按钮；</li><li data-list=\"ordered\">替换完成后插件自动关闭。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"ordered\">本插件仅支持本地文本样式替换，不支持团队样式库；</li><li data-list=\"ordered\">请确保当前文件中已有本地样式，否则将显示空状态；</li><li data-list=\"ordered\">请先选中需替换的文本图层再操作。</li></ol><p><br></p><h2>Introduction</h2><p>This plugin helps you batch replace local text styles in Figma with just a few clicks. It's ideal for managing multilingual design systems or switching between style versions efficiently.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"ordered\">Automatically loads all local text styles from the current file</li><li data-list=\"ordered\">Provides dropdowns to select source and target styles</li><li data-list=\"ordered\">Replaces text styles for selected text nodes in bulk</li><li data-list=\"ordered\">Shows an empty state message if no local styles exist</li></ol><p><br></p><h2>How to Use</h2><ol><li data-list=\"ordered\">Open the plugin to load local text styles automatically;</li><li data-list=\"ordered\">Select the source and target styles from the dropdowns;</li><li data-list=\"ordered\">Select the text nodes you want to modify;</li><li data-list=\"ordered\">Click the “Replace” button to apply the change.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"ordered\">Only local text styles are supported (no team styles);</li><li data-list=\"ordered\">The plugin will show an empty state if no local styles exist;</li><li data-list=\"ordered\">Make sure to select text layers before using the plugin.</li></ol>",
+      "resource_type": "plugin",
+      "created_at": "2025-04-18T17:01:01.334Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "kingweicheung@qq.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 0,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "a9198d63-f5dc-4527-8264-40fcbdea59e7",
+      "creator": {
+        "id": "771538867371472127",
+        "handle": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+      },
+      "publisher": {
+        "id": "2556409",
+        "location": "ShenZhen, China",
+        "profile_handle": "kingwei",
+        "public_at": "2021-04-25T00:57:57.375Z",
+        "follower_count": 19,
+        "following_count": 4,
+        "primary_user_id": "771538867371472127",
+        "name": "KingweiCheung",
+        "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+          "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "771538867371472127",
+                "is_primary_user": true
+              }
+            ],
+            "description": "Everything gets a response, but nothing gets a resolution. 事事有回应，事事不答应。",
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1495101334285053869",
+      "thumbnail_url": "https://www.figma.com/community/resource/349ddc91-bee3-4282-a775-73fb0eeae215/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/349ddc91-bee3-4282-a775-73fb0eeae215/icon",
+      "tagline": "Batch replace local text styles with ease",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "monetized_resource_metadata": {
+        "id": "3771",
+        "is_subscription": true,
+        "price": 400,
+        "purchase_count": 0,
+        "trial_length_in_days": 7,
+        "has_freemium_code": false,
+        "price_updated_at": null,
+        "can_increase_price": true,
+        "annual_discount_percentage": 5,
+        "annual_discount_active_at": "2025-04-18T17:01:02.529Z",
+        "annual_price": 4560
+      },
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1495101334285053869",
+          "creator": {
+            "id": "771538867371472127",
+            "handle": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b"
+          },
+          "current_plugin_version_id": "137626",
+          "created_at": "2025-04-18T16:38:55.728Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "a9198d63-f5dc-4527-8264-40fcbdea59e7",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "2556409",
+                "location": "ShenZhen, China",
+                "profile_handle": "kingwei",
+                "public_at": "2021-04-25T00:57:57.375Z",
+                "follower_count": 19,
+                "following_count": 4,
+                "primary_user_id": "771538867371472127",
+                "name": "KingweiCheung",
+                "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+                  "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 1,
+          "like_count": 0,
+          "view_count": 15,
+          "blocked_at": null,
+          "profile_id": "2556409",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 0,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-04-29T20:53:43.935Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1495101334285053869&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1495101334285053869/137626/13425d36097528999e6054d6bb6288afa7e76923-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ud74I2CzpoV9jCEL-sSRpgXwqDEKBv-KfSsrSou1gehZU9uchLvx9Mi0IBt-ZmB3ohm5x-YthD8bINsME7cFpuSt3D2urfnWo7LFfeVeRkZeceR0SFeFDK6mxqdFihVYwm~k1piH92sBsMohP2sMDK2iVczgXPZ9i0eGCt~H1HaYkeaLBtSNQkxFsRWWcjwEXS-viCae3oVZcW2nd8A4PHj4XQStTCcJe4v2eL-YBXKK-Jt9BK3I-94TESIXQmAvmT-6nCVk-idS55k10dH6fdDl-VD~JLPQulD71neERw8CiVTAhbS1ppukxJYoO73D54eVTf4V8HNUZ5BMyMbtqw__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "2556409",
+            "location": "ShenZhen, China",
+            "profile_handle": "kingwei",
+            "public_at": "2021-04-25T00:57:57.375Z",
+            "follower_count": 19,
+            "following_count": 4,
+            "primary_user_id": "771538867371472127",
+            "name": "KingweiCheung",
+            "img_url": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/26eb9e2e-7cd8-4e00-8e06-59901e9db11b",
+              "500_500": "https://s3-alpha.figma.com/profile/f5df9b93-e201-43f1-aaad-f91cecc5d5bf"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-2556409:1750034000:0:7f3935eb59fdad20b00f5f96473035e064e78f85",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetized_resource_metadata": {
+            "id": "3771",
+            "is_subscription": true,
+            "price": 400,
+            "purchase_count": 0,
+            "trial_length_in_days": 7,
+            "has_freemium_code": false,
+            "price_updated_at": null,
+            "can_increase_price": true,
+            "annual_discount_percentage": 5,
+            "annual_discount_active_at": "2025-04-18T17:01:02.529Z",
+            "annual_price": 4560
+          },
+          "monetization_status": "figma_first_party",
+          "third_party_m10n_status": null,
+          "support_contact": "kingweicheung@qq.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "137626": {
+              "id": "137626",
+              "plugin_id": "1495101334285053869",
+              "name": "文本样式映射助手 TextStyle Mapper",
+              "description": "<h2>介绍</h2><p>本插件可帮助你在 Figma 中快捷地将选中元素的本地文本样式进行批量替换，无需手动一个个设置，提升效率，适用于多语言或版本样式替换场景。</p><p><br></p><h2>功能说明</h2><ol><li data-list=\"ordered\">自动获取当前文件的本地文本样式</li><li data-list=\"ordered\">提供源样式与目标样式下拉选择</li><li data-list=\"ordered\">批量替换所选文本节点的样式</li><li data-list=\"ordered\">无本地样式时自动提示空状态</li></ol><p><br></p><h2>使用方法</h2><ol><li data-list=\"ordered\">打开插件后，插件会自动加载本地文本样式；</li><li data-list=\"ordered\">从两个下拉框中分别选择「源样式」与「目标样式」；</li><li data-list=\"ordered\">选中需要替换样式的文本节点，点击「开始替换」按钮；</li><li data-list=\"ordered\">替换完成后插件自动关闭。</li></ol><p><br></p><h2>注意事项</h2><ol><li data-list=\"ordered\">本插件仅支持本地文本样式替换，不支持团队样式库；</li><li data-list=\"ordered\">请确保当前文件中已有本地样式，否则将显示空状态；</li><li data-list=\"ordered\">请先选中需替换的文本图层再操作。</li></ol><p><br></p><h2>Introduction</h2><p>This plugin helps you batch replace local text styles in Figma with just a few clicks. It's ideal for managing multilingual design systems or switching between style versions efficiently.</p><p><br></p><h2>Function Description</h2><ol><li data-list=\"ordered\">Automatically loads all local text styles from the current file</li><li data-list=\"ordered\">Provides dropdowns to select source and target styles</li><li data-list=\"ordered\">Replaces text styles for selected text nodes in bulk</li><li data-list=\"ordered\">Shows an empty state message if no local styles exist</li></ol><p><br></p><h2>How to Use</h2><ol><li data-list=\"ordered\">Open the plugin to load local text styles automatically;</li><li data-list=\"ordered\">Select the source and target styles from the dropdowns;</li><li data-list=\"ordered\">Select the text nodes you want to modify;</li><li data-list=\"ordered\">Click the “Replace” button to apply the change.</li></ol><p><br></p><h2>Notes</h2><ol><li data-list=\"ordered\">Only local text styles are supported (no team styles);</li><li data-list=\"ordered\">The plugin will show an empty state if no local styles exist;</li><li data-list=\"ordered\">Make sure to select text layers before using the plugin.</li></ol>",
+              "version": "4",
+              "icon_path": "plugins/1495101334285053869/129283/826eff27-50cc-494e-8a47-342a44048f8b-icon",
+              "cover_image_path": "plugins/1495101334285053869/137626/13425d36097528999e6054d6bb6288afa7e76923-cover",
+              "code_path": "plugins/1495101334285053869/137626/8db6b507-e55c-4dc8-8aab-ed60a8bf079f-code",
+              "resource_staging_signature": "8db6b507-e55c-4dc8-8aab-ed60a8bf079f",
+              "manifest": {
+                "id": "1495101334285053869",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "文本样式映射助手 TextStyle Mapper",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://kingwei-ltd-1300144312.cos.ap-guangzhou.myqcloud.com/"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "fixbug",
+              "created_at": "2025-06-14T10:44:08.367Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Batch replace local text styles with ease",
+              "creator_policy": "",
+              "user_id": "771538867371472127",
+              "redirect_icon_url": "/community/icon?resource_id=1495101334285053869&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1495101334285053869&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1495101334285053869/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "137626",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    },
+    {
+      "id": "7bdd3a0c-508b-457b-9c1d-ea17010bb3ba",
+      "name": "SVG to React Component",
+      "description": "<p>Easily convert your SVG designs into reusable React components. Optimize, customize, and export with just a click – perfect for modern front-end workflows.</p><p>Convert SVGs into clean React components instantly. First 10 exports are free – unlock unlimited usage for just $5.</p><p>Buy license<a rel=\"noreferrer noopener nofollow ugc\" href=\"https://onurucar.gumroad.com/l/svg-to-react-component\" target=\"_blank\"> here.</a></p>",
+      "resource_type": "plugin",
+      "created_at": "2025-04-18T06:41:35.709Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "onurucar1443@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 0,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "ba697d28-282d-465d-8354-01a3f485ed83",
+      "creator": {
+        "id": "1281266795499880798",
+        "handle": "Onur Uçar",
+        "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7"
+      },
+      "publisher": {
+        "id": "1281266795624687817",
+        "location": null,
+        "profile_handle": "4f3f53f5_e49f_4",
+        "public_at": "2025-05-13T18:21:38.663Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1281266795499880798",
+        "name": "Onur Uçar",
+        "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+          "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1281266795624687817:1750034000:0:c106fb86e11fb972628ee8e6601974faa5f1d006",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1281266795624687817",
+            "location": null,
+            "profile_handle": "4f3f53f5_e49f_4",
+            "public_at": "2025-05-13T18:21:38.663Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1281266795499880798",
+            "name": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+              "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1281266795624687817:1750034000:0:c106fb86e11fb972628ee8e6601974faa5f1d006",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1281266795499880798",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1494950185701723620",
+      "thumbnail_url": "https://www.figma.com/community/resource/7bdd3a0c-508b-457b-9c1d-ea17010bb3ba/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/7bdd3a0c-508b-457b-9c1d-ea17010bb3ba/icon",
+      "tagline": "Easily convert your SVG's into reusable React components. Just a click and perfect components.",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1494950185701723620",
+          "creator": {
+            "id": "1281266795499880798",
+            "handle": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7"
+          },
+          "current_plugin_version_id": "129189",
+          "created_at": "2025-04-18T06:38:19.097Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "ba697d28-282d-465d-8354-01a3f485ed83",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1281266795624687817",
+                "location": null,
+                "profile_handle": "4f3f53f5_e49f_4",
+                "public_at": "2025-05-13T18:21:38.663Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1281266795499880798",
+                "name": "Onur Uçar",
+                "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+                  "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1281266795624687817:1750034000:0:c106fb86e11fb972628ee8e6601974faa5f1d006",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 7,
+          "blocked_at": null,
+          "profile_id": "1281266795624687817",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 0,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-05-13T18:21:38.609Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1494950185701723620&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1494950185701723620/129189/8db43c154d23ee24cc932a71f9a9546156ae7415-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GCApcrZ1moEs2i17CAZAxrx1licHBMMQ4-z28myjJnM5-7LCGItWspZ2pjPtUdfVkcvF-ihdXU340fScXYLKLIeCzTvZSenyR4HnGmlkgYbkhshDgfe9rtTgA96cKeb2kqLNk1oWUlfaS~M3kO8hrqGPiWzJvuNzxho2KC1M1s~W6HwBXAU3EOBCLbdo0HsZ5zYmOqsESukkr1OWFdmCsXSmXXi921YnxbUEszF1a6eJRsHm-8Qpj-SwxLFY2yXFO9SGhnnF0lq3LRBnA4BeKoN7qKM3QGlP424cRmUXyJZjYxJ7fZP8KrpWif8cvTaNvOxnvrEqjtktk5wNUfyc5w__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1281266795624687817",
+            "location": null,
+            "profile_handle": "4f3f53f5_e49f_4",
+            "public_at": "2025-05-13T18:21:38.663Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1281266795499880798",
+            "name": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+              "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1281266795624687817:1750034000:0:c106fb86e11fb972628ee8e6601974faa5f1d006",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "onurucar1443@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "129189": {
+              "id": "129189",
+              "plugin_id": "1494950185701723620",
+              "name": "SVG to React Component",
+              "description": "<p>Easily convert your SVG designs into reusable React components. Optimize, customize, and export with just a click – perfect for modern front-end workflows.</p><p>Convert SVGs into clean React components instantly. First 10 exports are free – unlock unlimited usage for just $5.</p><p>Buy license<a rel=\"noreferrer noopener nofollow ugc\" href=\"https://onurucar.gumroad.com/l/svg-to-react-component\" target=\"_blank\"> here.</a></p>",
+              "version": "1",
+              "icon_path": "plugins/1494950185701723620/129189/c195e2d4-4918-49c8-aab0-fbfcc65eb87a-icon",
+              "cover_image_path": "plugins/1494950185701723620/129189/8db43c154d23ee24cc932a71f9a9546156ae7415-cover",
+              "code_path": "plugins/1494950185701723620/129189/c195e2d4-4918-49c8-aab0-fbfcc65eb87a-code",
+              "resource_staging_signature": "c195e2d4-4918-49c8-aab0-fbfcc65eb87a",
+              "manifest": {
+                "id": "1494950185701723620",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "SVG to React Component",
+                "editorType": [
+                  "figma"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://api.gumroad.com"
+                  ]
+                },
+                "documentAccess": "dynamic-page"
+              },
+              "release_notes": "",
+              "created_at": "2025-04-18T06:41:32.287Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Easily convert your SVG's into reusable React components. Just a click and perfect components.",
+              "creator_policy": "",
+              "user_id": "1281266795499880798",
+              "redirect_icon_url": "/community/icon?resource_id=1494950185701723620&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1494950185701723620&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1494950185701723620/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "129189",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    }
+  ]
+}

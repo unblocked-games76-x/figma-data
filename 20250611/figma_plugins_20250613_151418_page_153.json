@@ -1,0 +1,229 @@
+{
+  "session_id": "figma_plugins_20250613_151418",
+  "page_number": 153,
+  "timestamp": "2025-06-13T15:30:10.099624",
+  "plugin_count": 1,
+  "has_more": false,
+  "next_page_url": null,
+  "plugins": [
+    {
+      "id": "7bdd3a0c-508b-457b-9c1d-ea17010bb3ba",
+      "name": "SVG to React Component",
+      "description": "<p>Easily convert your SVG designs into reusable React components. Optimize, customize, and export with just a click – perfect for modern front-end workflows.</p><p>Convert SVGs into clean React components instantly. First 10 exports are free – unlock unlimited usage for just $5.</p><p>Buy license<a rel=\"noreferrer noopener nofollow ugc\" href=\"https://onurucar.gumroad.com/l/svg-to-react-component\" target=\"_blank\"> here.</a></p>",
+      "resource_type": "plugin",
+      "created_at": "2025-04-18T06:41:35.709Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "onurucar1443@gmail.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 0,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "ba697d28-282d-465d-8354-01a3f485ed83",
+      "creator": {
+        "id": "1281266795499880798",
+        "handle": "Onur Uçar",
+        "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7"
+      },
+      "publisher": {
+        "id": "1281266795624687817",
+        "location": null,
+        "profile_handle": "4f3f53f5_e49f_4",
+        "public_at": "2025-05-13T18:21:38.663Z",
+        "follower_count": 0,
+        "following_count": 0,
+        "primary_user_id": "1281266795499880798",
+        "name": "Onur Uçar",
+        "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+          "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-1281266795624687817:1749799808:0:59ba236472a9f791f0ee505a79f3c90d19393dc9",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "1281266795624687817",
+            "location": null,
+            "profile_handle": "4f3f53f5_e49f_4",
+            "public_at": "2025-05-13T18:21:38.663Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1281266795499880798",
+            "name": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+              "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1281266795624687817:1749799808:0:59ba236472a9f791f0ee505a79f3c90d19393dc9",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "1281266795499880798",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1494950185701723620",
+      "thumbnail_url": "https://www.figma.com/community/resource/7bdd3a0c-508b-457b-9c1d-ea17010bb3ba/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/7bdd3a0c-508b-457b-9c1d-ea17010bb3ba/icon",
+      "tagline": "Easily convert your SVG's into reusable React components. Just a click and perfect components.",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1494950185701723620",
+          "creator": {
+            "id": "1281266795499880798",
+            "handle": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7"
+          },
+          "current_plugin_version_id": "129189",
+          "created_at": "2025-04-18T06:38:19.097Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "ba697d28-282d-465d-8354-01a3f485ed83",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "1281266795624687817",
+                "location": null,
+                "profile_handle": "4f3f53f5_e49f_4",
+                "public_at": "2025-05-13T18:21:38.663Z",
+                "follower_count": 0,
+                "following_count": 0,
+                "primary_user_id": "1281266795499880798",
+                "name": "Onur Uçar",
+                "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+                  "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-1281266795624687817:1749799808:0:59ba236472a9f791f0ee505a79f3c90d19393dc9",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 6,
+          "blocked_at": null,
+          "profile_id": "1281266795624687817",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 0,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-05-13T18:21:38.609Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1494950185701723620&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1494950185701723620/129189/8db43c154d23ee24cc932a71f9a9546156ae7415-cover?Expires=1750636800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GCApcrZ1moEs2i17CAZAxrx1licHBMMQ4-z28myjJnM5-7LCGItWspZ2pjPtUdfVkcvF-ihdXU340fScXYLKLIeCzTvZSenyR4HnGmlkgYbkhshDgfe9rtTgA96cKeb2kqLNk1oWUlfaS~M3kO8hrqGPiWzJvuNzxho2KC1M1s~W6HwBXAU3EOBCLbdo0HsZ5zYmOqsESukkr1OWFdmCsXSmXXi921YnxbUEszF1a6eJRsHm-8Qpj-SwxLFY2yXFO9SGhnnF0lq3LRBnA4BeKoN7qKM3QGlP424cRmUXyJZjYxJ7fZP8KrpWif8cvTaNvOxnvrEqjtktk5wNUfyc5w__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "1281266795624687817",
+            "location": null,
+            "profile_handle": "4f3f53f5_e49f_4",
+            "public_at": "2025-05-13T18:21:38.663Z",
+            "follower_count": 0,
+            "following_count": 0,
+            "primary_user_id": "1281266795499880798",
+            "name": "Onur Uçar",
+            "img_url": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/164589c5-6d4d-46bc-b28e-f0633b5065f7",
+              "500_500": "https://s3-alpha.figma.com/profile/0e8edd1f-12ba-4675-a16f-d2ce9efc36c6"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-1281266795624687817:1749799808:0:59ba236472a9f791f0ee505a79f3c90d19393dc9",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "onurucar1443@gmail.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "129189": {
+              "id": "129189",
+              "plugin_id": "1494950185701723620",
+              "name": "SVG to React Component",
+              "description": "<p>Easily convert your SVG designs into reusable React components. Optimize, customize, and export with just a click – perfect for modern front-end workflows.</p><p>Convert SVGs into clean React components instantly. First 10 exports are free – unlock unlimited usage for just $5.</p><p>Buy license<a rel=\"noreferrer noopener nofollow ugc\" href=\"https://onurucar.gumroad.com/l/svg-to-react-component\" target=\"_blank\"> here.</a></p>",
+              "version": "1",
+              "icon_path": "plugins/1494950185701723620/129189/c195e2d4-4918-49c8-aab0-fbfcc65eb87a-icon",
+              "cover_image_path": "plugins/1494950185701723620/129189/8db43c154d23ee24cc932a71f9a9546156ae7415-cover",
+              "code_path": "plugins/1494950185701723620/129189/c195e2d4-4918-49c8-aab0-fbfcc65eb87a-code",
+              "resource_staging_signature": "c195e2d4-4918-49c8-aab0-fbfcc65eb87a",
+              "manifest": {
+                "id": "1494950185701723620",
+                "ui": "ui.html",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "SVG to React Component",
+                "editorType": [
+                  "figma"
+                ],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "https://api.gumroad.com"
+                  ]
+                },
+                "documentAccess": "dynamic-page"
+              },
+              "release_notes": "",
+              "created_at": "2025-04-18T06:41:32.287Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Easily convert your SVG's into reusable React components. Just a click and perfect components.",
+              "creator_policy": "",
+              "user_id": "1281266795499880798",
+              "redirect_icon_url": "/community/icon?resource_id=1494950185701723620&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1494950185701723620&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1494950185701723620/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "129189",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    }
+  ]
+}

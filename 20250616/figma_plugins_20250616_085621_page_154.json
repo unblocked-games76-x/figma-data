@@ -1,0 +1,230 @@
+{
+  "session_id": "figma_plugins_20250617_085621",
+  "page_number": 154,
+  "timestamp": "2025-06-17T09:12:32.383922",
+  "plugin_count": 1,
+  "has_more": false,
+  "next_page_url": null,
+  "plugins": [
+    {
+      "id": "038cf301-4839-4631-adae-61d1c17f2586",
+      "name": "Layer Name To Text",
+      "description": "<h2>Instantly Add Layer Name Tags Beside Your Components</h2><p>Tired of manually labeling component layers for documentation, presentations, or handoff?</p><p>Layer Name Labels is a simple yet powerful plugin that automates this process for you.</p><p><br></p><p>✅ What It Does</p><p>Layer Name Labels scans your selected component or frame and reads the names of visible layers. It then adds a text label next to each layer, mirroring its layer name—perfect for documentation, audits, teaching materials, or internal reviews.</p><p><br></p><p>💡 Why You'll Love It</p><p>⚡ One-click operation – Just select your components or frames and run the plugin.</p><p><br></p><p>🧠 Smart placement – Labels appear right next to each target layer.</p><p><br></p><p>✨ Non-destructive – Original design stays untouched. Labels are added as separate text layers.</p><p><br></p><p>🧩 Works with nested components – Recursively finds and labels layers inside complex structures.</p><p><br></p><p>🛠️ Perfect for:</p><p>Developer handoffs</p><p>Design system documentation</p><p>Training materials</p><p>Accessibility audits</p><p><br></p><p>🛠️ How It Works</p><p>Select any frame, group, or group of components.</p><p>Run the plugin.</p><p>Instantly see text layers added beside each target with its layer name.</p>",
+      "resource_type": "plugin",
+      "created_at": "2025-06-13T18:40:51.448Z",
+      "unpublished_at": null,
+      "view_count": 0,
+      "like_count": 0,
+      "support_contact": "s_usman_ali@outlook.com",
+      "publishing_status": "approved_public",
+      "publish_scope": "community",
+      "user_count": 1,
+      "editor_types": [
+        "design"
+      ],
+      "category_id": "78909ce9-256c-49a6-88c8-39911c07f508",
+      "creator": {
+        "id": "989992986077553311",
+        "handle": "Usman",
+        "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4"
+      },
+      "publisher": {
+        "id": "989992986188190134",
+        "location": "Pakistan",
+        "profile_handle": "u5man",
+        "public_at": "2021-08-19T07:03:23.346Z",
+        "follower_count": 0,
+        "following_count": 2,
+        "primary_user_id": "989992986077553311",
+        "name": "Usman",
+        "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+        "img_urls": {
+          "120_120": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+          "500_500": "https://s3-alpha.figma.com/profile/4c1291ff-5180-4117-a06e-122730c83908"
+        },
+        "current_user_is_following": null,
+        "current_user_is_followed": null,
+        "is_restricted_by_current_user": null,
+        "realtime_token": "/profile-989992986188190134:1750122753:0:e9974fd7547a8795bc6a2791a26bb5b6dcd00bab",
+        "entity_type": "user",
+        "badges": []
+      },
+      "community_publishers": {
+        "accepted": [
+          {
+            "id": "989992986188190134",
+            "location": "Pakistan",
+            "profile_handle": "u5man",
+            "public_at": "2021-08-19T07:03:23.346Z",
+            "follower_count": 0,
+            "following_count": 2,
+            "primary_user_id": "989992986077553311",
+            "name": "Usman",
+            "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+              "500_500": "https://s3-alpha.figma.com/profile/4c1291ff-5180-4117-a06e-122730c83908"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-989992986188190134:1750122753:0:e9974fd7547a8795bc6a2791a26bb5b6dcd00bab",
+            "entity_type": "user",
+            "associated_users": [
+              {
+                "user_id": "989992986077553311",
+                "is_primary_user": true
+              }
+            ],
+            "description": null,
+            "badges": []
+          }
+        ]
+      },
+      "rdp_url": "https://www.figma.com/community/plugin/1471762394286255087",
+      "thumbnail_url": "https://www.figma.com/community/resource/038cf301-4839-4631-adae-61d1c17f2586/thumbnail",
+      "icon_url": "https://www.figma.com/community/resource/038cf301-4839-4631-adae-61d1c17f2586/icon",
+      "tagline": "Create names for countless layers in seconds",
+      "badges": [],
+      "is_3rd_party_monetized": false,
+      "third_party_m10n_url": null,
+      "content": {
+        "hub_file": null,
+        "plugin": {
+          "id": "1471762394286255087",
+          "creator": {
+            "id": "989992986077553311",
+            "handle": "Usman",
+            "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4"
+          },
+          "current_plugin_version_id": "137573",
+          "created_at": "2025-02-13T06:58:18.816Z",
+          "is_widget": null,
+          "roles": {
+            "is_public": true
+          },
+          "category_id": "78909ce9-256c-49a6-88c8-39911c07f508",
+          "is_seo_indexable": true,
+          "community_publishers": {
+            "accepted": [
+              {
+                "id": "989992986188190134",
+                "location": "Pakistan",
+                "profile_handle": "u5man",
+                "public_at": "2021-08-19T07:03:23.346Z",
+                "follower_count": 0,
+                "following_count": 2,
+                "primary_user_id": "989992986077553311",
+                "name": "Usman",
+                "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+                "img_urls": {
+                  "120_120": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+                  "500_500": "https://s3-alpha.figma.com/profile/4c1291ff-5180-4117-a06e-122730c83908"
+                },
+                "current_user_is_following": null,
+                "current_user_is_followed": null,
+                "is_restricted_by_current_user": null,
+                "realtime_token": "/profile-989992986188190134:1750122753:0:e9974fd7547a8795bc6a2791a26bb5b6dcd00bab",
+                "entity_type": "user",
+                "badges": []
+              }
+            ]
+          },
+          "plugin_publishers": null,
+          "unpublished_at": null,
+          "install_count": 0,
+          "like_count": 0,
+          "view_count": 2,
+          "blocked_at": null,
+          "profile_id": "989992986188190134",
+          "comment_count": 0,
+          "org_id": null,
+          "hide_related_content_by_others": null,
+          "editor_type": "design",
+          "unique_run_count": 1,
+          "publishing_status": "approved_public",
+          "publishing_status_updated_at": "2025-06-16T17:00:36.585Z",
+          "redirect_thumbnail_url": "https://www.figma.com/community/thumbnail?resource_id=1471762394286255087&resource_type=plugin",
+          "thumbnail_url": "https://s3-alpha-sig.figma.com/plugins/1471762394286255087/137573/6a50e5c2ecbb030870c7570b64936555d4940067-cover?Expires=1751241600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R1rGNV6ZEFuqFg8mgv4DOX4MKoEBRXCL-XBxFWF7AdIDtLMkShBZTiy-HYdri9VG5K-dbkwu7NAC-0uC0iopgGki~EB~ni9G9dPKTC-r4q-w48-bVMpsU4UPuI-t2wFU4OhRhv7duzDlA7GTNXU67CeJTL~4rcUOlN-n6YjISZyc4-n8C92sNqFLEgr1LQeanNkmnyPvbp564NIeG3-4tWaRDubwOIDstC0HHwIIC10K5k7QfIClAF9iqflZwug9KIVU0Q~gckEHYKORqYF3wXbEaxeXQZgW0foRoE-zEMpBq1~1qPHlwJccNXwz~AZOHWo0YdwTYiPhCmdenAnmRA__",
+          "install_status": null,
+          "profile_install_status": null,
+          "publisher": {
+            "id": "989992986188190134",
+            "location": "Pakistan",
+            "profile_handle": "u5man",
+            "public_at": "2021-08-19T07:03:23.346Z",
+            "follower_count": 0,
+            "following_count": 2,
+            "primary_user_id": "989992986077553311",
+            "name": "Usman",
+            "img_url": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+            "img_urls": {
+              "120_120": "https://s3-alpha.figma.com/profile/c16e598e-2b2d-4f8d-8d04-324d505f00b4",
+              "500_500": "https://s3-alpha.figma.com/profile/4c1291ff-5180-4117-a06e-122730c83908"
+            },
+            "current_user_is_following": null,
+            "current_user_is_followed": null,
+            "is_restricted_by_current_user": null,
+            "realtime_token": "/profile-989992986188190134:1750122753:0:e9974fd7547a8795bc6a2791a26bb5b6dcd00bab",
+            "entity_type": "user",
+            "badges": []
+          },
+          "current_user_liked": null,
+          "current_user_has_run": false,
+          "current_user_first_ran_at": null,
+          "monetization_status": null,
+          "third_party_m10n_status": null,
+          "support_contact": "s_usman_ali@outlook.com",
+          "comments_setting": "enabled",
+          "badges": [],
+          "versions": {
+            "137573": {
+              "id": "137573",
+              "plugin_id": "1471762394286255087",
+              "name": "Layer Name To Text",
+              "description": "<h2>Instantly Add Layer Name Tags Beside Your Components</h2><p>Tired of manually labeling component layers for documentation, presentations, or handoff?</p><p>Layer Name Labels is a simple yet powerful plugin that automates this process for you.</p><p><br></p><p>✅ What It Does</p><p>Layer Name Labels scans your selected component or frame and reads the names of visible layers. It then adds a text label next to each layer, mirroring its layer name—perfect for documentation, audits, teaching materials, or internal reviews.</p><p><br></p><p>💡 Why You'll Love It</p><p>⚡ One-click operation – Just select your components or frames and run the plugin.</p><p><br></p><p>🧠 Smart placement – Labels appear right next to each target layer.</p><p><br></p><p>✨ Non-destructive – Original design stays untouched. Labels are added as separate text layers.</p><p><br></p><p>🧩 Works with nested components – Recursively finds and labels layers inside complex structures.</p><p><br></p><p>🛠️ Perfect for:</p><p>Developer handoffs</p><p>Design system documentation</p><p>Training materials</p><p>Accessibility audits</p><p><br></p><p>🛠️ How It Works</p><p>Select any frame, group, or group of components.</p><p>Run the plugin.</p><p>Instantly see text layers added beside each target with its layer name.</p>",
+              "version": "1",
+              "icon_path": "plugins/1471762394286255087/137573/6c369b95-5c9f-4d9f-8248-d2ffd29522ae-icon",
+              "cover_image_path": "plugins/1471762394286255087/137573/6a50e5c2ecbb030870c7570b64936555d4940067-cover",
+              "code_path": "plugins/1471762394286255087/137573/6c369b95-5c9f-4d9f-8248-d2ffd29522ae-code",
+              "resource_staging_signature": "6c369b95-5c9f-4d9f-8248-d2ffd29522ae",
+              "manifest": {
+                "id": "1471762394286255087",
+                "api": "1.0.0",
+                "main": "code.js",
+                "name": "Layer Name To Text",
+                "editorType": [
+                  "figma"
+                ],
+                "capabilities": [],
+                "networkAccess": {
+                  "allowedDomains": [
+                    "none"
+                  ]
+                },
+                "documentAccess": "dynamic-page",
+                "enableProposedApi": false
+              },
+              "release_notes": "",
+              "created_at": "2025-06-13T18:40:47.306Z",
+              "snapshot_path": null,
+              "playground_file_version_id": null,
+              "tagline": "Create names for countless layers in seconds",
+              "creator_policy": "",
+              "user_id": "989992986077553311",
+              "redirect_icon_url": "/community/icon?resource_id=1471762394286255087&resource_type=plugin",
+              "redirect_cover_image_url": "/community/thumbnail?resource_id=1471762394286255087&resource_type=plugin",
+              "redirect_code_url": "/community/plugin/1471762394286255087/code",
+              "redirect_snapshot_url": null,
+              "current_plugin_version_id": "137573",
+              "is_private": false
+            }
+          }
+        },
+        "widget": null,
+        "template": null,
+        "component_v2": null
+      }
+    }
+  ]
+}
